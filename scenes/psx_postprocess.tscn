@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Shader" path="res://shaders/psx_postprocess.gdshader" id="1_shader"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_psx"]
+shader = ExtResource("1_shader")
+shader_parameter/target_resolution = Vector2(320, 240)
+shader_parameter/enable_pixelation = true
+shader_parameter/enable_dithering = true
+shader_parameter/color_depth = 32.0
+shader_parameter/dither_strength = 0.85
+
+[node name="PSXPostProcess" type="CanvasLayer"]
+layer = 100
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_psx")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2

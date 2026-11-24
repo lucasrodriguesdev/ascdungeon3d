@@ -1,0 +1,5861 @@
+{
+  "total": 705,
+  "categories": [
+    {
+      "cat": "Personagens",
+      "id": "characters",
+      "items": [
+        {
+          "id": "jogador",
+          "label": "Jogador",
+          "glb": "assets/characters/jogador.glb",
+          "tex": "assets/characters/jogador_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "taverneiro",
+          "label": "Taverneiro",
+          "glb": "assets/characters/taverneiro.glb",
+          "tex": "assets/characters/taverneiro_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "ferreiro",
+          "label": "Ferreiro",
+          "glb": "assets/characters/ferreiro.glb",
+          "tex": "assets/characters/ferreiro_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "arquimago_npc",
+          "label": "Arquimago NPC",
+          "glb": "assets/characters/arquimago_npc.glb",
+          "tex": "assets/characters/arquimago_npc_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "mestre_das_sombras",
+          "label": "Mestre das Sombras",
+          "glb": "assets/characters/mestre_das_sombras.glb",
+          "tex": "assets/characters/mestre_das_sombras_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "capitao",
+          "label": "Capitão",
+          "glb": "assets/characters/capitao.glb",
+          "tex": "assets/characters/capitao_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "mercador",
+          "label": "Mercador",
+          "glb": "assets/characters/mercador.glb",
+          "tex": "assets/characters/mercador_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "helena",
+          "label": "Helena",
+          "glb": "assets/characters/helena.glb",
+          "tex": "assets/characters/helena_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "marta",
+          "label": "Marta",
+          "glb": "assets/characters/marta.glb",
+          "tex": "assets/characters/marta_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "ines",
+          "label": "Inês",
+          "glb": "assets/characters/ines.glb",
+          "tex": "assets/characters/ines_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "beatriz",
+          "label": "Beatriz",
+          "glb": "assets/characters/beatriz.glb",
+          "tex": "assets/characters/beatriz_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "doroteia",
+          "label": "Doroteia",
+          "glb": "assets/characters/doroteia.glb",
+          "tex": "assets/characters/doroteia_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "agnes",
+          "label": "Agnès",
+          "glb": "assets/characters/agnes.glb",
+          "tex": "assets/characters/agnes_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "padre_anselmo",
+          "label": "Padre Anselmo",
+          "glb": "assets/characters/padre_anselmo.glb",
+          "tex": "assets/characters/padre_anselmo_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "jogador_teste_ps2",
+          "label": "Jogador (Teste PS2)",
+          "glb": "assets/characters/jogador_teste_ps2.glb",
+          "tex": "assets/characters/jogador_teste_ps2_tex.png",
+          "animated": true,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Inimigos",
+      "id": "enemies",
+      "items": [
+        {
+          "id": "slime_corpo_pequeno",
+          "label": "Slime Corpo Pequeno",
+          "glb": "assets/enemies/slime_corpo_pequeno.glb",
+          "tex": "assets/enemies/slime_corpo_pequeno_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "slime_corpo_medio",
+          "label": "Slime Corpo Médio",
+          "glb": "assets/enemies/slime_corpo_medio.glb",
+          "tex": "assets/enemies/slime_corpo_medio_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "slime_corpo_grande",
+          "label": "Slime Corpo Grande",
+          "glb": "assets/enemies/slime_corpo_grande.glb",
+          "tex": "assets/enemies/slime_corpo_grande_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_comum_corpo_1_magro",
+          "label": "Goblin de Lança Comum Corpo 1 Magro",
+          "glb": "assets/enemies/goblin_de_lanca_comum_corpo_1_magro.glb",
+          "tex": "assets/enemies/goblin_de_lanca_comum_corpo_1_magro_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_comum_corpo_2_medio",
+          "label": "Goblin de Lança Comum Corpo 2 Médio",
+          "glb": "assets/enemies/goblin_de_lanca_comum_corpo_2_medio.glb",
+          "tex": "assets/enemies/goblin_de_lanca_comum_corpo_2_medio_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_comum_corpo_3_robusto",
+          "label": "Goblin de Lança Comum Corpo 3 Robusto",
+          "glb": "assets/enemies/goblin_de_lanca_comum_corpo_3_robusto.glb",
+          "tex": "assets/enemies/goblin_de_lanca_comum_corpo_3_robusto_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_floresta_corpo_1_magro",
+          "label": "Goblin de Lança Floresta Corpo 1 Magro",
+          "glb": "assets/enemies/goblin_de_lanca_floresta_corpo_1_magro.glb",
+          "tex": "assets/enemies/goblin_de_lanca_floresta_corpo_1_magro_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_floresta_corpo_2_medio",
+          "label": "Goblin de Lança Floresta Corpo 2 Médio",
+          "glb": "assets/enemies/goblin_de_lanca_floresta_corpo_2_medio.glb",
+          "tex": "assets/enemies/goblin_de_lanca_floresta_corpo_2_medio_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_floresta_corpo_3_robusto",
+          "label": "Goblin de Lança Floresta Corpo 3 Robusto",
+          "glb": "assets/enemies/goblin_de_lanca_floresta_corpo_3_robusto.glb",
+          "tex": "assets/enemies/goblin_de_lanca_floresta_corpo_3_robusto_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_caverna_corpo_1_magro",
+          "label": "Goblin de Lança Caverna Corpo 1 Magro",
+          "glb": "assets/enemies/goblin_de_lanca_caverna_corpo_1_magro.glb",
+          "tex": "assets/enemies/goblin_de_lanca_caverna_corpo_1_magro_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_caverna_corpo_2_medio",
+          "label": "Goblin de Lança Caverna Corpo 2 Médio",
+          "glb": "assets/enemies/goblin_de_lanca_caverna_corpo_2_medio.glb",
+          "tex": "assets/enemies/goblin_de_lanca_caverna_corpo_2_medio_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_caverna_corpo_3_robusto",
+          "label": "Goblin de Lança Caverna Corpo 3 Robusto",
+          "glb": "assets/enemies/goblin_de_lanca_caverna_corpo_3_robusto.glb",
+          "tex": "assets/enemies/goblin_de_lanca_caverna_corpo_3_robusto_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_gelo_corpo_1_magro",
+          "label": "Goblin de Lança Gelo Corpo 1 Magro",
+          "glb": "assets/enemies/goblin_de_lanca_gelo_corpo_1_magro.glb",
+          "tex": "assets/enemies/goblin_de_lanca_gelo_corpo_1_magro_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_gelo_corpo_2_medio",
+          "label": "Goblin de Lança Gelo Corpo 2 Médio",
+          "glb": "assets/enemies/goblin_de_lanca_gelo_corpo_2_medio.glb",
+          "tex": "assets/enemies/goblin_de_lanca_gelo_corpo_2_medio_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_gelo_corpo_3_robusto",
+          "label": "Goblin de Lança Gelo Corpo 3 Robusto",
+          "glb": "assets/enemies/goblin_de_lanca_gelo_corpo_3_robusto.glb",
+          "tex": "assets/enemies/goblin_de_lanca_gelo_corpo_3_robusto_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_sangue_corpo_1_magro",
+          "label": "Goblin de Lança Sangue Corpo 1 Magro",
+          "glb": "assets/enemies/goblin_de_lanca_sangue_corpo_1_magro.glb",
+          "tex": "assets/enemies/goblin_de_lanca_sangue_corpo_1_magro_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_sangue_corpo_2_medio",
+          "label": "Goblin de Lança Sangue Corpo 2 Médio",
+          "glb": "assets/enemies/goblin_de_lanca_sangue_corpo_2_medio.glb",
+          "tex": "assets/enemies/goblin_de_lanca_sangue_corpo_2_medio_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_sangue_corpo_3_robusto",
+          "label": "Goblin de Lança Sangue Corpo 3 Robusto",
+          "glb": "assets/enemies/goblin_de_lanca_sangue_corpo_3_robusto.glb",
+          "tex": "assets/enemies/goblin_de_lanca_sangue_corpo_3_robusto_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_brasa_corpo_1_magro",
+          "label": "Goblin de Lança Brasa Corpo 1 Magro",
+          "glb": "assets/enemies/goblin_de_lanca_brasa_corpo_1_magro.glb",
+          "tex": "assets/enemies/goblin_de_lanca_brasa_corpo_1_magro_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_brasa_corpo_2_medio",
+          "label": "Goblin de Lança Brasa Corpo 2 Médio",
+          "glb": "assets/enemies/goblin_de_lanca_brasa_corpo_2_medio.glb",
+          "tex": "assets/enemies/goblin_de_lanca_brasa_corpo_2_medio_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_brasa_corpo_3_robusto",
+          "label": "Goblin de Lança Brasa Corpo 3 Robusto",
+          "glb": "assets/enemies/goblin_de_lanca_brasa_corpo_3_robusto.glb",
+          "tex": "assets/enemies/goblin_de_lanca_brasa_corpo_3_robusto_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_veneno_corpo_1_magro",
+          "label": "Goblin de Lança Veneno Corpo 1 Magro",
+          "glb": "assets/enemies/goblin_de_lanca_veneno_corpo_1_magro.glb",
+          "tex": "assets/enemies/goblin_de_lanca_veneno_corpo_1_magro_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_veneno_corpo_2_medio",
+          "label": "Goblin de Lança Veneno Corpo 2 Médio",
+          "glb": "assets/enemies/goblin_de_lanca_veneno_corpo_2_medio.glb",
+          "tex": "assets/enemies/goblin_de_lanca_veneno_corpo_2_medio_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_veneno_corpo_3_robusto",
+          "label": "Goblin de Lança Veneno Corpo 3 Robusto",
+          "glb": "assets/enemies/goblin_de_lanca_veneno_corpo_3_robusto.glb",
+          "tex": "assets/enemies/goblin_de_lanca_veneno_corpo_3_robusto_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_sombrio_corpo_1_magro",
+          "label": "Goblin de Lança Sombrio Corpo 1 Magro",
+          "glb": "assets/enemies/goblin_de_lanca_sombrio_corpo_1_magro.glb",
+          "tex": "assets/enemies/goblin_de_lanca_sombrio_corpo_1_magro_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_sombrio_corpo_2_medio",
+          "label": "Goblin de Lança Sombrio Corpo 2 Médio",
+          "glb": "assets/enemies/goblin_de_lanca_sombrio_corpo_2_medio.glb",
+          "tex": "assets/enemies/goblin_de_lanca_sombrio_corpo_2_medio_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_de_lanca_sombrio_corpo_3_robusto",
+          "label": "Goblin de Lança Sombrio Corpo 3 Robusto",
+          "glb": "assets/enemies/goblin_de_lanca_sombrio_corpo_3_robusto.glb",
+          "tex": "assets/enemies/goblin_de_lanca_sombrio_corpo_3_robusto_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "morcego_de_caverna",
+          "label": "Morcego de Caverna",
+          "glb": "assets/enemies/morcego_de_caverna.glb",
+          "tex": "assets/enemies/morcego_de_caverna_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "morcego_esfomeado",
+          "label": "Morcego Esfomeado",
+          "glb": "assets/enemies/morcego_esfomeado.glb",
+          "tex": "assets/enemies/morcego_esfomeado_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "esqueleto_de_espada",
+          "label": "Esqueleto de Espada",
+          "glb": "assets/enemies/esqueleto_de_espada.glb",
+          "tex": "assets/enemies/esqueleto_de_espada_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "esqueleto_arqueiro",
+          "label": "Esqueleto Arqueiro",
+          "glb": "assets/enemies/esqueleto_arqueiro.glb",
+          "tex": "assets/enemies/esqueleto_arqueiro_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "legionario_esqueleto",
+          "label": "Legionário Esqueleto",
+          "glb": "assets/enemies/legionario_esqueleto.glb",
+          "tex": "assets/enemies/legionario_esqueleto_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "esqueleto_mago_fogo",
+          "label": "Esqueleto Mago Fogo",
+          "glb": "assets/enemies/esqueleto_mago_fogo.glb",
+          "tex": "assets/enemies/esqueleto_mago_fogo_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "esqueleto_mago_gelo",
+          "label": "Esqueleto Mago Gelo",
+          "glb": "assets/enemies/esqueleto_mago_gelo.glb",
+          "tex": "assets/enemies/esqueleto_mago_gelo_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "esqueleto_mago_raio",
+          "label": "Esqueleto Mago Raio",
+          "glb": "assets/enemies/esqueleto_mago_raio.glb",
+          "tex": "assets/enemies/esqueleto_mago_raio_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "esqueleto_mago_veneno",
+          "label": "Esqueleto Mago Veneno",
+          "glb": "assets/enemies/esqueleto_mago_veneno.glb",
+          "tex": "assets/enemies/esqueleto_mago_veneno_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "esqueleto_mago_arcano",
+          "label": "Esqueleto Mago Arcano",
+          "glb": "assets/enemies/esqueleto_mago_arcano.glb",
+          "tex": "assets/enemies/esqueleto_mago_arcano_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "esqueleto_mago_sombrio",
+          "label": "Esqueleto Mago Sombrio",
+          "glb": "assets/enemies/esqueleto_mago_sombrio.glb",
+          "tex": "assets/enemies/esqueleto_mago_sombrio_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "zumbi_guerreiro",
+          "label": "Zumbi Guerreiro",
+          "glb": "assets/enemies/zumbi_guerreiro.glb",
+          "tex": "assets/enemies/zumbi_guerreiro_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "mephit_floresta",
+          "label": "Mephit Floresta",
+          "glb": "assets/enemies/mephit_floresta.glb",
+          "tex": "assets/enemies/mephit_floresta_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "mephit_caverna",
+          "label": "Mephit Caverna",
+          "glb": "assets/enemies/mephit_caverna.glb",
+          "tex": "assets/enemies/mephit_caverna_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "mephit_gelo",
+          "label": "Mephit Gelo",
+          "glb": "assets/enemies/mephit_gelo.glb",
+          "tex": "assets/enemies/mephit_gelo_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "mephit_sangue",
+          "label": "Mephit Sangue",
+          "glb": "assets/enemies/mephit_sangue.glb",
+          "tex": "assets/enemies/mephit_sangue_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "mephit_inferno",
+          "label": "Mephit Inferno",
+          "glb": "assets/enemies/mephit_inferno.glb",
+          "tex": "assets/enemies/mephit_inferno_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "mephit_pantano",
+          "label": "Mephit Pântano",
+          "glb": "assets/enemies/mephit_pantano.glb",
+          "tex": "assets/enemies/mephit_pantano_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "mephit_arcano",
+          "label": "Mephit Arcano",
+          "glb": "assets/enemies/mephit_arcano.glb",
+          "tex": "assets/enemies/mephit_arcano_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "espectro",
+          "label": "Espectro",
+          "glb": "assets/enemies/espectro.glb",
+          "tex": "assets/enemies/espectro_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "xama",
+          "label": "Xamã",
+          "glb": "assets/enemies/xama.glb",
+          "tex": "assets/enemies/xama_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "cultista",
+          "label": "Cultista",
+          "glb": "assets/enemies/cultista.glb",
+          "tex": "assets/enemies/cultista_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "cavaleiro_elite",
+          "label": "Cavaleiro Elite",
+          "glb": "assets/enemies/cavaleiro_elite.glb",
+          "tex": "assets/enemies/cavaleiro_elite_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "carrasco_elite",
+          "label": "Carrasco Elite",
+          "glb": "assets/enemies/carrasco_elite.glb",
+          "tex": "assets/enemies/carrasco_elite_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "arquimago_elite",
+          "label": "Arquimago Elite",
+          "glb": "assets/enemies/arquimago_elite.glb",
+          "tex": "assets/enemies/arquimago_elite_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "lich_elite",
+          "label": "Lich Elite",
+          "glb": "assets/enemies/lich_elite.glb",
+          "tex": "assets/enemies/lich_elite_tex.png",
+          "animated": true,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Chefes",
+      "id": "bosses",
+      "items": [
+        {
+          "id": "orc_chefe",
+          "label": "Orc Chefe",
+          "glb": "assets/bosses/orc_chefe.glb",
+          "tex": "assets/bosses/orc_chefe_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "dragao",
+          "label": "Dragão",
+          "glb": "assets/bosses/dragao.glb",
+          "tex": "assets/bosses/dragao_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "urso_geodo",
+          "label": "Urso Geodo",
+          "glb": "assets/bosses/urso_geodo.glb",
+          "tex": "assets/bosses/urso_geodo_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "goblin_rei",
+          "label": "Goblin Rei",
+          "glb": "assets/bosses/goblin_rei.glb",
+          "tex": "assets/bosses/goblin_rei_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "sir_vaelen",
+          "label": "Sir Vaelen",
+          "glb": "assets/bosses/sir_vaelen.glb",
+          "tex": "assets/bosses/sir_vaelen_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "lyra",
+          "label": "Lyra",
+          "glb": "assets/bosses/lyra.glb",
+          "tex": "assets/bosses/lyra_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "kaelen",
+          "label": "Kaelen",
+          "glb": "assets/bosses/kaelen.glb",
+          "tex": "assets/bosses/kaelen_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "orin",
+          "label": "Orin",
+          "glb": "assets/bosses/orin.glb",
+          "tex": "assets/bosses/orin_tex.png",
+          "animated": true,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Fauna",
+      "id": "fauna",
+      "items": [
+        {
+          "id": "alce_castanho",
+          "label": "Alce Castanho",
+          "glb": "assets/fauna/alce_castanho.glb",
+          "tex": "assets/fauna/alce_castanho_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "alce_adulto_robusto",
+          "label": "Alce Adulto Robusto",
+          "glb": "assets/fauna/alce_adulto_robusto.glb",
+          "tex": "assets/fauna/alce_adulto_robusto_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "alce_cinzento",
+          "label": "Alce Cinzento",
+          "glb": "assets/fauna/alce_cinzento.glb",
+          "tex": "assets/fauna/alce_cinzento_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "porco_selvagem",
+          "label": "Porco Selvagem",
+          "glb": "assets/fauna/porco_selvagem.glb",
+          "tex": "assets/fauna/porco_selvagem_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "javali_selvagem",
+          "label": "Javali Selvagem",
+          "glb": "assets/fauna/javali_selvagem.glb",
+          "tex": "assets/fauna/javali_selvagem_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "ovelha",
+          "label": "Ovelha",
+          "glb": "assets/fauna/ovelha.glb",
+          "tex": "assets/fauna/ovelha_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "urso_marrom",
+          "label": "Urso Marrom",
+          "glb": "assets/fauna/urso_marrom.glb",
+          "tex": "assets/fauna/urso_marrom_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "urso_cinza",
+          "label": "Urso Cinza",
+          "glb": "assets/fauna/urso_cinza.glb",
+          "tex": "assets/fauna/urso_cinza_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "urso_negro",
+          "label": "Urso Negro",
+          "glb": "assets/fauna/urso_negro.glb",
+          "tex": "assets/fauna/urso_negro_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "urso_do_gelo",
+          "label": "Urso do Gelo",
+          "glb": "assets/fauna/urso_do_gelo.glb",
+          "tex": "assets/fauna/urso_do_gelo_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "galinha_branca",
+          "label": "Galinha Branca",
+          "glb": "assets/fauna/galinha_branca.glb",
+          "tex": "assets/fauna/galinha_branca_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "galinha_ruiva",
+          "label": "Galinha Ruiva",
+          "glb": "assets/fauna/galinha_ruiva.glb",
+          "tex": "assets/fauna/galinha_ruiva_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "galinha_carijo",
+          "label": "Galinha Carijó",
+          "glb": "assets/fauna/galinha_carijo.glb",
+          "tex": "assets/fauna/galinha_carijo_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "galo_dourado",
+          "label": "Galo Dourado",
+          "glb": "assets/fauna/galo_dourado.glb",
+          "tex": "assets/fauna/galo_dourado_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "jacare_pantano",
+          "label": "Jacaré Pântano",
+          "glb": "assets/fauna/jacare_pantano.glb",
+          "tex": "assets/fauna/jacare_pantano_tex.png",
+          "animated": true,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Árvores e Vegetação",
+      "id": "vegetation",
+      "items": [
+        {
+          "id": "arvore_de_floresta",
+          "label": "Árvore de Floresta",
+          "glb": "assets/vegetation/arvore_de_floresta.glb",
+          "tex": "assets/vegetation/arvore_de_floresta_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "arvore_frutifera_macieira",
+          "label": "Árvore Frutífera Macieira",
+          "glb": "assets/vegetation/arvore_frutifera_macieira.glb",
+          "tex": "assets/vegetation/arvore_frutifera_macieira_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "arvore_frutifera_laranjeira",
+          "label": "Árvore Frutífera Laranjeira",
+          "glb": "assets/vegetation/arvore_frutifera_laranjeira.glb",
+          "tex": "assets/vegetation/arvore_frutifera_laranjeira_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "arvore_frutifera_limoeiro",
+          "label": "Árvore Frutífera Limoeiro",
+          "glb": "assets/vegetation/arvore_frutifera_limoeiro.glb",
+          "tex": "assets/vegetation/arvore_frutifera_limoeiro_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "arvore_frutifera_pessegueiro",
+          "label": "Árvore Frutífera Pessegueiro",
+          "glb": "assets/vegetation/arvore_frutifera_pessegueiro.glb",
+          "tex": "assets/vegetation/arvore_frutifera_pessegueiro_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "arvore_frutifera_ameixeira",
+          "label": "Árvore Frutífera Ameixeira",
+          "glb": "assets/vegetation/arvore_frutifera_ameixeira.glb",
+          "tex": "assets/vegetation/arvore_frutifera_ameixeira_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "arvore_frutifera_base_tintavel",
+          "label": "Árvore Frutífera (Base Tintável)",
+          "glb": "assets/vegetation/arvore_frutifera_base_tintavel.glb",
+          "tex": "assets/vegetation/arvore_frutifera_base_tintavel_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "arvore_de_floresta_de_sangue",
+          "label": "Árvore de Floresta de Sangue",
+          "glb": "assets/vegetation/arvore_de_floresta_de_sangue.glb",
+          "tex": "assets/vegetation/arvore_de_floresta_de_sangue_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "graveto",
+          "label": "Graveto",
+          "glb": "assets/vegetation/graveto.glb",
+          "tex": "assets/vegetation/graveto_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pedra_solta",
+          "label": "Pedra Solta",
+          "glb": "assets/vegetation/pedra_solta.glb",
+          "tex": "assets/vegetation/pedra_solta_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mato_alto",
+          "label": "Mato Alto",
+          "glb": "assets/vegetation/mato_alto.glb",
+          "tex": "assets/vegetation/mato_alto_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "feixe_de_grama",
+          "label": "Feixe de Grama",
+          "glb": "assets/vegetation/feixe_de_grama.glb",
+          "tex": "assets/vegetation/feixe_de_grama_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "grama_fina",
+          "label": "Grama Fina",
+          "glb": "assets/vegetation/grama_fina.glb",
+          "tex": "assets/vegetation/grama_fina_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "feixe_de_junco",
+          "label": "Feixe de Junco",
+          "glb": "assets/vegetation/feixe_de_junco.glb",
+          "tex": "assets/vegetation/feixe_de_junco_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "grama_de_sangue",
+          "label": "Grama de Sangue",
+          "glb": "assets/vegetation/grama_de_sangue.glb",
+          "tex": "assets/vegetation/grama_de_sangue_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "hortela",
+          "label": "Hortelã",
+          "glb": "assets/vegetation/hortela.glb",
+          "tex": "assets/vegetation/hortela_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "alecrim",
+          "label": "Alecrim",
+          "glb": "assets/vegetation/alecrim.glb",
+          "tex": "assets/vegetation/alecrim_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "salvia",
+          "label": "Sálvia",
+          "glb": "assets/vegetation/salvia.glb",
+          "tex": "assets/vegetation/salvia_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "orvalho_da_lua",
+          "label": "Orvalho-da-Lua",
+          "glb": "assets/vegetation/orvalho_da_lua.glb",
+          "tex": "assets/vegetation/orvalho_da_lua_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "margarida",
+          "label": "Margarida",
+          "glb": "assets/vegetation/margarida.glb",
+          "tex": "assets/vegetation/margarida_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "botao_de_ouro",
+          "label": "Botão-de-Ouro",
+          "glb": "assets/vegetation/botao_de_ouro.glb",
+          "tex": "assets/vegetation/botao_de_ouro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "flor_azul",
+          "label": "Flor Azul",
+          "glb": "assets/vegetation/flor_azul.glb",
+          "tex": "assets/vegetation/flor_azul_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "papoula",
+          "label": "Papoula",
+          "glb": "assets/vegetation/papoula.glb",
+          "tex": "assets/vegetation/papoula_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lavanda",
+          "label": "Lavanda",
+          "glb": "assets/vegetation/lavanda.glb",
+          "tex": "assets/vegetation/lavanda_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "buque_de_flores",
+          "label": "Buquê de Flores",
+          "glb": "assets/vegetation/buque_de_flores.glb",
+          "tex": "assets/vegetation/buque_de_flores_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "flor_de_gelo",
+          "label": "Flor de Gelo",
+          "glb": "assets/vegetation/flor_de_gelo.glb",
+          "tex": "assets/vegetation/flor_de_gelo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lirio_de_sangue",
+          "label": "Lírio de Sangue",
+          "glb": "assets/vegetation/lirio_de_sangue.glb",
+          "tex": "assets/vegetation/lirio_de_sangue_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "flor_de_cinza",
+          "label": "Flor de Cinza",
+          "glb": "assets/vegetation/flor_de_cinza.glb",
+          "tex": "assets/vegetation/flor_de_cinza_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "orquidea_de_cristal",
+          "label": "Orquídea de Cristal",
+          "glb": "assets/vegetation/orquidea_de_cristal.glb",
+          "tex": "assets/vegetation/orquidea_de_cristal_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "samambaia",
+          "label": "Samambaia",
+          "glb": "assets/vegetation/samambaia.glb",
+          "tex": "assets/vegetation/samambaia_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "galho_folhado",
+          "label": "Galho Folhado",
+          "glb": "assets/vegetation/galho_folhado.glb",
+          "tex": "assets/vegetation/galho_folhado_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "samambaia_carmesim",
+          "label": "Samambaia Carmesim",
+          "glb": "assets/vegetation/samambaia_carmesim.glb",
+          "tex": "assets/vegetation/samambaia_carmesim_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "musgo_de_trevo",
+          "label": "Musgo de Trevo",
+          "glb": "assets/vegetation/musgo_de_trevo.glb",
+          "tex": "assets/vegetation/musgo_de_trevo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "musgo_brilhante",
+          "label": "Musgo Brilhante",
+          "glb": "assets/vegetation/musgo_brilhante.glb",
+          "tex": "assets/vegetation/musgo_brilhante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "liquen_de_caverna",
+          "label": "Líquen de Caverna",
+          "glb": "assets/vegetation/liquen_de_caverna.glb",
+          "tex": "assets/vegetation/liquen_de_caverna_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "musgo_carmesim",
+          "label": "Musgo Carmesim",
+          "glb": "assets/vegetation/musgo_carmesim.glb",
+          "tex": "assets/vegetation/musgo_carmesim_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "musgo_arcano",
+          "label": "Musgo Arcano",
+          "glb": "assets/vegetation/musgo_arcano.glb",
+          "tex": "assets/vegetation/musgo_arcano_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "raiz_de_caverna",
+          "label": "Raiz de Caverna",
+          "glb": "assets/vegetation/raiz_de_caverna.glb",
+          "tex": "assets/vegetation/raiz_de_caverna_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "raiz_de_sangue",
+          "label": "Raiz de Sangue",
+          "glb": "assets/vegetation/raiz_de_sangue.glb",
+          "tex": "assets/vegetation/raiz_de_sangue_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Minérios, Pedras e Gemas",
+      "id": "ores_gems",
+      "items": [
+        {
+          "id": "pedra",
+          "label": "Pedra",
+          "glb": "assets/ores_gems/pedra.glb",
+          "tex": "assets/ores_gems/pedra_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "minerio_de_cobre",
+          "label": "Minério de Cobre",
+          "glb": "assets/ores_gems/minerio_de_cobre.glb",
+          "tex": "assets/ores_gems/minerio_de_cobre_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "minerio_de_ferro",
+          "label": "Minério de Ferro",
+          "glb": "assets/ores_gems/minerio_de_ferro.glb",
+          "tex": "assets/ores_gems/minerio_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "minerio_de_prata",
+          "label": "Minério de Prata",
+          "glb": "assets/ores_gems/minerio_de_prata.glb",
+          "tex": "assets/ores_gems/minerio_de_prata_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "minerio_de_ouro",
+          "label": "Minério de Ouro",
+          "glb": "assets/ores_gems/minerio_de_ouro.glb",
+          "tex": "assets/ores_gems/minerio_de_ouro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "carvao",
+          "label": "Carvão",
+          "glb": "assets/ores_gems/carvao.glb",
+          "tex": "assets/ores_gems/carvao_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "argila",
+          "label": "Argila",
+          "glb": "assets/ores_gems/argila.glb",
+          "tex": "assets/ores_gems/argila_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "diamante",
+          "label": "Diamante",
+          "glb": "assets/ores_gems/diamante.glb",
+          "tex": "assets/ores_gems/diamante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "safira",
+          "label": "Safira",
+          "glb": "assets/ores_gems/safira.glb",
+          "tex": "assets/ores_gems/safira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "esmeralda",
+          "label": "Esmeralda",
+          "glb": "assets/ores_gems/esmeralda.glb",
+          "tex": "assets/ores_gems/esmeralda_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "rubi",
+          "label": "Rubi",
+          "glb": "assets/ores_gems/rubi.glb",
+          "tex": "assets/ores_gems/rubi_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "ametista",
+          "label": "Ametista",
+          "glb": "assets/ores_gems/ametista.glb",
+          "tex": "assets/ores_gems/ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "obsidiana",
+          "label": "Obsidiana",
+          "glb": "assets/ores_gems/obsidiana.glb",
+          "tex": "assets/ores_gems/obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "ardosia",
+          "label": "Ardósia",
+          "glb": "assets/ores_gems/ardosia.glb",
+          "tex": "assets/ores_gems/ardosia_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cal",
+          "label": "Cal",
+          "glb": "assets/ores_gems/cal.glb",
+          "tex": "assets/ores_gems/cal_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "enxofre",
+          "label": "Enxofre",
+          "glb": "assets/ores_gems/enxofre.glb",
+          "tex": "assets/ores_gems/enxofre_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "salitre",
+          "label": "Salitre",
+          "glb": "assets/ores_gems/salitre.glb",
+          "tex": "assets/ores_gems/salitre_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "quartzo",
+          "label": "Quartzo",
+          "glb": "assets/ores_gems/quartzo.glb",
+          "tex": "assets/ores_gems/quartzo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "sal_gema",
+          "label": "Sal-Gema",
+          "glb": "assets/ores_gems/sal_gema.glb",
+          "tex": "assets/ores_gems/sal_gema_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "betume",
+          "label": "Betume",
+          "glb": "assets/ores_gems/betume.glb",
+          "tex": "assets/ores_gems/betume_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cristal_de_gelo",
+          "label": "Cristal de Gelo",
+          "glb": "assets/ores_gems/cristal_de_gelo.glb",
+          "tex": "assets/ores_gems/cristal_de_gelo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "estilhaco_de_gelo",
+          "label": "Estilhaço de Gelo",
+          "glb": "assets/ores_gems/estilhaco_de_gelo.glb",
+          "tex": "assets/ores_gems/estilhaco_de_gelo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "brasa_viva",
+          "label": "Brasa Viva",
+          "glb": "assets/ores_gems/brasa_viva.glb",
+          "tex": "assets/ores_gems/brasa_viva_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pedra_pomes",
+          "label": "Pedra-Pomes",
+          "glb": "assets/ores_gems/pedra_pomes.glb",
+          "tex": "assets/ores_gems/pedra_pomes_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pirita",
+          "label": "Pirita",
+          "glb": "assets/ores_gems/pirita.glb",
+          "tex": "assets/ores_gems/pirita_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "estilhaco_de_ametista",
+          "label": "Estilhaço de Ametista",
+          "glb": "assets/ores_gems/estilhaco_de_ametista.glb",
+          "tex": "assets/ores_gems/estilhaco_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "estilhaco_de_obsidiana",
+          "label": "Estilhaço de Obsidiana",
+          "glb": "assets/ores_gems/estilhaco_de_obsidiana.glb",
+          "tex": "assets/ores_gems/estilhaco_de_obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "areia_magnetita",
+          "label": "Areia Magnetita",
+          "glb": "assets/ores_gems/areia_magnetita.glb",
+          "tex": "assets/ores_gems/areia_magnetita_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cristal_da_fenda",
+          "label": "Cristal da Fenda",
+          "glb": "assets/ores_gems/cristal_da_fenda.glb",
+          "tex": "assets/ores_gems/cristal_da_fenda_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Lingotes e Materiais",
+      "id": "materials",
+      "items": [
+        {
+          "id": "lingote_de_cobre",
+          "label": "Lingote de Cobre",
+          "glb": "assets/materials/lingote_de_cobre.glb",
+          "tex": "assets/materials/lingote_de_cobre_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lingote_de_ferro",
+          "label": "Lingote de Ferro",
+          "glb": "assets/materials/lingote_de_ferro.glb",
+          "tex": "assets/materials/lingote_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lingote_de_prata",
+          "label": "Lingote de Prata",
+          "glb": "assets/materials/lingote_de_prata.glb",
+          "tex": "assets/materials/lingote_de_prata_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lingote_de_ouro",
+          "label": "Lingote de Ouro",
+          "glb": "assets/materials/lingote_de_ouro.glb",
+          "tex": "assets/materials/lingote_de_ouro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "madeira",
+          "label": "Madeira",
+          "glb": "assets/materials/madeira.glb",
+          "tex": "assets/materials/madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tabua",
+          "label": "Tábua",
+          "glb": "assets/materials/tabua.glb",
+          "tex": "assets/materials/tabua_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "fibra",
+          "label": "Fibra",
+          "glb": "assets/materials/fibra.glb",
+          "tex": "assets/materials/fibra_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "corda",
+          "label": "Corda",
+          "glb": "assets/materials/corda.glb",
+          "tex": "assets/materials/corda_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "couro",
+          "label": "Couro",
+          "glb": "assets/materials/couro.glb",
+          "tex": "assets/materials/couro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tira_de_couro",
+          "label": "Tira de Couro",
+          "glb": "assets/materials/tira_de_couro.glb",
+          "tex": "assets/materials/tira_de_couro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "trapo",
+          "label": "Trapo",
+          "glb": "assets/materials/trapo.glb",
+          "tex": "assets/materials/trapo_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "la",
+          "label": "Lã",
+          "glb": "assets/materials/la.glb",
+          "tex": "assets/materials/la_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tecido",
+          "label": "Tecido",
+          "glb": "assets/materials/tecido.glb",
+          "tex": "assets/materials/tecido_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "cobertor",
+          "label": "Cobertor",
+          "glb": "assets/materials/cobertor.glb",
+          "tex": "assets/materials/cobertor_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "gordura",
+          "label": "Gordura",
+          "glb": "assets/materials/gordura.glb",
+          "tex": "assets/materials/gordura_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cabo_reforcado",
+          "label": "Cabo Reforçado",
+          "glb": "assets/materials/cabo_reforcado.glb",
+          "tex": "assets/materials/cabo_reforcado_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "molde_da_forja_das_cinzas",
+          "label": "Molde da Forja das Cinzas",
+          "glb": "assets/materials/molde_da_forja_das_cinzas.glb",
+          "tex": "assets/materials/molde_da_forja_das_cinzas_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Armas",
+      "id": "weapons",
+      "items": [
+        {
+          "id": "adaga_de_cobre",
+          "label": "Adaga de Cobre",
+          "glb": "assets/weapons/adaga_de_cobre.glb",
+          "tex": "assets/weapons/adaga_de_cobre_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "adaga_de_ferro",
+          "label": "Adaga de Ferro",
+          "glb": "assets/weapons/adaga_de_ferro.glb",
+          "tex": "assets/weapons/adaga_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "adaga_de_prata",
+          "label": "Adaga de Prata",
+          "glb": "assets/weapons/adaga_de_prata.glb",
+          "tex": "assets/weapons/adaga_de_prata_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "adaga_de_ouro",
+          "label": "Adaga de Ouro",
+          "glb": "assets/weapons/adaga_de_ouro.glb",
+          "tex": "assets/weapons/adaga_de_ouro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "adaga_de_diamante",
+          "label": "Adaga de Diamante",
+          "glb": "assets/weapons/adaga_de_diamante.glb",
+          "tex": "assets/weapons/adaga_de_diamante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "adaga_de_safira",
+          "label": "Adaga de Safira",
+          "glb": "assets/weapons/adaga_de_safira.glb",
+          "tex": "assets/weapons/adaga_de_safira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "adaga_de_esmeralda",
+          "label": "Adaga de Esmeralda",
+          "glb": "assets/weapons/adaga_de_esmeralda.glb",
+          "tex": "assets/weapons/adaga_de_esmeralda_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "adaga_de_rubi",
+          "label": "Adaga de Rubi",
+          "glb": "assets/weapons/adaga_de_rubi.glb",
+          "tex": "assets/weapons/adaga_de_rubi_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "adaga_de_ametista",
+          "label": "Adaga de Ametista",
+          "glb": "assets/weapons/adaga_de_ametista.glb",
+          "tex": "assets/weapons/adaga_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "adaga_de_obsidiana",
+          "label": "Adaga de Obsidiana",
+          "glb": "assets/weapons/adaga_de_obsidiana.glb",
+          "tex": "assets/weapons/adaga_de_obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "adaga_de_madeira",
+          "label": "Adaga de Madeira",
+          "glb": "assets/weapons/adaga_de_madeira.glb",
+          "tex": "assets/weapons/adaga_de_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "espada_de_cobre",
+          "label": "Espada de Cobre",
+          "glb": "assets/weapons/espada_de_cobre.glb",
+          "tex": "assets/weapons/espada_de_cobre_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "espada_de_ferro",
+          "label": "Espada de Ferro",
+          "glb": "assets/weapons/espada_de_ferro.glb",
+          "tex": "assets/weapons/espada_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "espada_de_prata",
+          "label": "Espada de Prata",
+          "glb": "assets/weapons/espada_de_prata.glb",
+          "tex": "assets/weapons/espada_de_prata_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "espada_de_ouro",
+          "label": "Espada de Ouro",
+          "glb": "assets/weapons/espada_de_ouro.glb",
+          "tex": "assets/weapons/espada_de_ouro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "espada_de_diamante",
+          "label": "Espada de Diamante",
+          "glb": "assets/weapons/espada_de_diamante.glb",
+          "tex": "assets/weapons/espada_de_diamante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "espada_de_safira",
+          "label": "Espada de Safira",
+          "glb": "assets/weapons/espada_de_safira.glb",
+          "tex": "assets/weapons/espada_de_safira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "espada_de_esmeralda",
+          "label": "Espada de Esmeralda",
+          "glb": "assets/weapons/espada_de_esmeralda.glb",
+          "tex": "assets/weapons/espada_de_esmeralda_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "espada_de_rubi",
+          "label": "Espada de Rubi",
+          "glb": "assets/weapons/espada_de_rubi.glb",
+          "tex": "assets/weapons/espada_de_rubi_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "espada_de_ametista",
+          "label": "Espada de Ametista",
+          "glb": "assets/weapons/espada_de_ametista.glb",
+          "tex": "assets/weapons/espada_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "espada_de_obsidiana",
+          "label": "Espada de Obsidiana",
+          "glb": "assets/weapons/espada_de_obsidiana.glb",
+          "tex": "assets/weapons/espada_de_obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "espada_de_madeira",
+          "label": "Espada de Madeira",
+          "glb": "assets/weapons/espada_de_madeira.glb",
+          "tex": "assets/weapons/espada_de_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "machado_de_cobre",
+          "label": "Machado de Cobre",
+          "glb": "assets/weapons/machado_de_cobre.glb",
+          "tex": "assets/weapons/machado_de_cobre_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "machado_de_ferro",
+          "label": "Machado de Ferro",
+          "glb": "assets/weapons/machado_de_ferro.glb",
+          "tex": "assets/weapons/machado_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "machado_de_prata",
+          "label": "Machado de Prata",
+          "glb": "assets/weapons/machado_de_prata.glb",
+          "tex": "assets/weapons/machado_de_prata_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "machado_de_ouro",
+          "label": "Machado de Ouro",
+          "glb": "assets/weapons/machado_de_ouro.glb",
+          "tex": "assets/weapons/machado_de_ouro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "machado_de_diamante",
+          "label": "Machado de Diamante",
+          "glb": "assets/weapons/machado_de_diamante.glb",
+          "tex": "assets/weapons/machado_de_diamante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "machado_de_safira",
+          "label": "Machado de Safira",
+          "glb": "assets/weapons/machado_de_safira.glb",
+          "tex": "assets/weapons/machado_de_safira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "machado_de_esmeralda",
+          "label": "Machado de Esmeralda",
+          "glb": "assets/weapons/machado_de_esmeralda.glb",
+          "tex": "assets/weapons/machado_de_esmeralda_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "machado_de_rubi",
+          "label": "Machado de Rubi",
+          "glb": "assets/weapons/machado_de_rubi.glb",
+          "tex": "assets/weapons/machado_de_rubi_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "machado_de_ametista",
+          "label": "Machado de Ametista",
+          "glb": "assets/weapons/machado_de_ametista.glb",
+          "tex": "assets/weapons/machado_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "machado_de_obsidiana",
+          "label": "Machado de Obsidiana",
+          "glb": "assets/weapons/machado_de_obsidiana.glb",
+          "tex": "assets/weapons/machado_de_obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "machado_de_madeira",
+          "label": "Machado de Madeira",
+          "glb": "assets/weapons/machado_de_madeira.glb",
+          "tex": "assets/weapons/machado_de_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lanca_de_cobre",
+          "label": "Lança de Cobre",
+          "glb": "assets/weapons/lanca_de_cobre.glb",
+          "tex": "assets/weapons/lanca_de_cobre_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lanca_de_ferro",
+          "label": "Lança de Ferro",
+          "glb": "assets/weapons/lanca_de_ferro.glb",
+          "tex": "assets/weapons/lanca_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lanca_de_prata",
+          "label": "Lança de Prata",
+          "glb": "assets/weapons/lanca_de_prata.glb",
+          "tex": "assets/weapons/lanca_de_prata_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lanca_de_ouro",
+          "label": "Lança de Ouro",
+          "glb": "assets/weapons/lanca_de_ouro.glb",
+          "tex": "assets/weapons/lanca_de_ouro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lanca_de_diamante",
+          "label": "Lança de Diamante",
+          "glb": "assets/weapons/lanca_de_diamante.glb",
+          "tex": "assets/weapons/lanca_de_diamante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lanca_de_safira",
+          "label": "Lança de Safira",
+          "glb": "assets/weapons/lanca_de_safira.glb",
+          "tex": "assets/weapons/lanca_de_safira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lanca_de_esmeralda",
+          "label": "Lança de Esmeralda",
+          "glb": "assets/weapons/lanca_de_esmeralda.glb",
+          "tex": "assets/weapons/lanca_de_esmeralda_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lanca_de_rubi",
+          "label": "Lança de Rubi",
+          "glb": "assets/weapons/lanca_de_rubi.glb",
+          "tex": "assets/weapons/lanca_de_rubi_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lanca_de_ametista",
+          "label": "Lança de Ametista",
+          "glb": "assets/weapons/lanca_de_ametista.glb",
+          "tex": "assets/weapons/lanca_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lanca_de_obsidiana",
+          "label": "Lança de Obsidiana",
+          "glb": "assets/weapons/lanca_de_obsidiana.glb",
+          "tex": "assets/weapons/lanca_de_obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lanca_de_madeira",
+          "label": "Lança de Madeira",
+          "glb": "assets/weapons/lanca_de_madeira.glb",
+          "tex": "assets/weapons/lanca_de_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "arco_de_cobre",
+          "label": "Arco de Cobre",
+          "glb": "assets/weapons/arco_de_cobre.glb",
+          "tex": "assets/weapons/arco_de_cobre_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "arco_de_ferro",
+          "label": "Arco de Ferro",
+          "glb": "assets/weapons/arco_de_ferro.glb",
+          "tex": "assets/weapons/arco_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "arco_de_prata",
+          "label": "Arco de Prata",
+          "glb": "assets/weapons/arco_de_prata.glb",
+          "tex": "assets/weapons/arco_de_prata_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "arco_de_ouro",
+          "label": "Arco de Ouro",
+          "glb": "assets/weapons/arco_de_ouro.glb",
+          "tex": "assets/weapons/arco_de_ouro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "arco_de_diamante",
+          "label": "Arco de Diamante",
+          "glb": "assets/weapons/arco_de_diamante.glb",
+          "tex": "assets/weapons/arco_de_diamante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "arco_de_safira",
+          "label": "Arco de Safira",
+          "glb": "assets/weapons/arco_de_safira.glb",
+          "tex": "assets/weapons/arco_de_safira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "arco_de_esmeralda",
+          "label": "Arco de Esmeralda",
+          "glb": "assets/weapons/arco_de_esmeralda.glb",
+          "tex": "assets/weapons/arco_de_esmeralda_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "arco_de_rubi",
+          "label": "Arco de Rubi",
+          "glb": "assets/weapons/arco_de_rubi.glb",
+          "tex": "assets/weapons/arco_de_rubi_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "arco_de_ametista",
+          "label": "Arco de Ametista",
+          "glb": "assets/weapons/arco_de_ametista.glb",
+          "tex": "assets/weapons/arco_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "arco_de_obsidiana",
+          "label": "Arco de Obsidiana",
+          "glb": "assets/weapons/arco_de_obsidiana.glb",
+          "tex": "assets/weapons/arco_de_obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "arco_de_madeira",
+          "label": "Arco de Madeira",
+          "glb": "assets/weapons/arco_de_madeira.glb",
+          "tex": "assets/weapons/arco_de_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cajado_de_cobre",
+          "label": "Cajado de Cobre",
+          "glb": "assets/weapons/cajado_de_cobre.glb",
+          "tex": "assets/weapons/cajado_de_cobre_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cajado_de_ferro",
+          "label": "Cajado de Ferro",
+          "glb": "assets/weapons/cajado_de_ferro.glb",
+          "tex": "assets/weapons/cajado_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cajado_de_prata",
+          "label": "Cajado de Prata",
+          "glb": "assets/weapons/cajado_de_prata.glb",
+          "tex": "assets/weapons/cajado_de_prata_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cajado_de_ouro",
+          "label": "Cajado de Ouro",
+          "glb": "assets/weapons/cajado_de_ouro.glb",
+          "tex": "assets/weapons/cajado_de_ouro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cajado_de_diamante",
+          "label": "Cajado de Diamante",
+          "glb": "assets/weapons/cajado_de_diamante.glb",
+          "tex": "assets/weapons/cajado_de_diamante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cajado_de_safira",
+          "label": "Cajado de Safira",
+          "glb": "assets/weapons/cajado_de_safira.glb",
+          "tex": "assets/weapons/cajado_de_safira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cajado_de_esmeralda",
+          "label": "Cajado de Esmeralda",
+          "glb": "assets/weapons/cajado_de_esmeralda.glb",
+          "tex": "assets/weapons/cajado_de_esmeralda_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cajado_de_rubi",
+          "label": "Cajado de Rubi",
+          "glb": "assets/weapons/cajado_de_rubi.glb",
+          "tex": "assets/weapons/cajado_de_rubi_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cajado_de_ametista",
+          "label": "Cajado de Ametista",
+          "glb": "assets/weapons/cajado_de_ametista.glb",
+          "tex": "assets/weapons/cajado_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cajado_de_obsidiana",
+          "label": "Cajado de Obsidiana",
+          "glb": "assets/weapons/cajado_de_obsidiana.glb",
+          "tex": "assets/weapons/cajado_de_obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cajado_de_madeira",
+          "label": "Cajado de Madeira",
+          "glb": "assets/weapons/cajado_de_madeira.glb",
+          "tex": "assets/weapons/cajado_de_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Ferramentas",
+      "id": "tools",
+      "items": [
+        {
+          "id": "picareta",
+          "label": "Picareta",
+          "glb": "assets/tools/picareta.glb",
+          "tex": "assets/tools/picareta_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pa",
+          "label": "Pá",
+          "glb": "assets/tools/pa.glb",
+          "tex": "assets/tools/pa_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "enxada_de_ferro",
+          "label": "Enxada de Ferro",
+          "glb": "assets/tools/enxada_de_ferro.glb",
+          "tex": "assets/tools/enxada_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "foice_de_ferro",
+          "label": "Foice de Ferro",
+          "glb": "assets/tools/foice_de_ferro.glb",
+          "tex": "assets/tools/foice_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "balde_de_ferro",
+          "label": "Balde de Ferro",
+          "glb": "assets/tools/balde_de_ferro.glb",
+          "tex": "assets/tools/balde_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "vara_de_pesca",
+          "label": "Vara de Pesca",
+          "glb": "assets/tools/vara_de_pesca.glb",
+          "tex": "assets/tools/vara_de_pesca_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "faca_de_caca",
+          "label": "Faca de Caça",
+          "glb": "assets/tools/faca_de_caca.glb",
+          "tex": "assets/tools/faca_de_caca_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tesoura_de_tosa",
+          "label": "Tesoura de Tosa",
+          "glb": "assets/tools/tesoura_de_tosa.glb",
+          "tex": "assets/tools/tesoura_de_tosa_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cantil",
+          "label": "Cantil",
+          "glb": "assets/tools/cantil.glb",
+          "tex": "assets/tools/cantil_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tocha",
+          "label": "Tocha",
+          "glb": "assets/tools/tocha.glb",
+          "tex": "assets/tools/tocha_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tocha_de_gordura",
+          "label": "Tocha de Gordura",
+          "glb": "assets/tools/tocha_de_gordura.glb",
+          "tex": "assets/tools/tocha_de_gordura_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tocha_de_betume",
+          "label": "Tocha de Betume",
+          "glb": "assets/tools/tocha_de_betume.glb",
+          "tex": "assets/tools/tocha_de_betume_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "frasco_vazio",
+          "label": "Frasco Vazio",
+          "glb": "assets/tools/frasco_vazio.glb",
+          "tex": "assets/tools/frasco_vazio_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Armaduras",
+      "id": "armor",
+      "items": [
+        {
+          "id": "capacete_de_couro",
+          "label": "Capacete de Couro",
+          "glb": "assets/armor/capacete_de_couro.glb",
+          "tex": "assets/armor/capacete_de_couro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "capacete_de_ferro",
+          "label": "Capacete de Ferro",
+          "glb": "assets/armor/capacete_de_ferro.glb",
+          "tex": "assets/armor/capacete_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "capacete_de_ouro",
+          "label": "Capacete de Ouro",
+          "glb": "assets/armor/capacete_de_ouro.glb",
+          "tex": "assets/armor/capacete_de_ouro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "capacete_de_diamante",
+          "label": "Capacete de Diamante",
+          "glb": "assets/armor/capacete_de_diamante.glb",
+          "tex": "assets/armor/capacete_de_diamante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "capacete_de_safira",
+          "label": "Capacete de Safira",
+          "glb": "assets/armor/capacete_de_safira.glb",
+          "tex": "assets/armor/capacete_de_safira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "capacete_de_esmeralda",
+          "label": "Capacete de Esmeralda",
+          "glb": "assets/armor/capacete_de_esmeralda.glb",
+          "tex": "assets/armor/capacete_de_esmeralda_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "capacete_de_rubi",
+          "label": "Capacete de Rubi",
+          "glb": "assets/armor/capacete_de_rubi.glb",
+          "tex": "assets/armor/capacete_de_rubi_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "capacete_de_ametista",
+          "label": "Capacete de Ametista",
+          "glb": "assets/armor/capacete_de_ametista.glb",
+          "tex": "assets/armor/capacete_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "capacete_de_obsidiana",
+          "label": "Capacete de Obsidiana",
+          "glb": "assets/armor/capacete_de_obsidiana.glb",
+          "tex": "assets/armor/capacete_de_obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "peitoral_de_couro",
+          "label": "Peitoral de Couro",
+          "glb": "assets/armor/peitoral_de_couro.glb",
+          "tex": "assets/armor/peitoral_de_couro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "peitoral_de_ferro",
+          "label": "Peitoral de Ferro",
+          "glb": "assets/armor/peitoral_de_ferro.glb",
+          "tex": "assets/armor/peitoral_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "peitoral_de_ouro",
+          "label": "Peitoral de Ouro",
+          "glb": "assets/armor/peitoral_de_ouro.glb",
+          "tex": "assets/armor/peitoral_de_ouro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "peitoral_de_diamante",
+          "label": "Peitoral de Diamante",
+          "glb": "assets/armor/peitoral_de_diamante.glb",
+          "tex": "assets/armor/peitoral_de_diamante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "peitoral_de_safira",
+          "label": "Peitoral de Safira",
+          "glb": "assets/armor/peitoral_de_safira.glb",
+          "tex": "assets/armor/peitoral_de_safira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "peitoral_de_esmeralda",
+          "label": "Peitoral de Esmeralda",
+          "glb": "assets/armor/peitoral_de_esmeralda.glb",
+          "tex": "assets/armor/peitoral_de_esmeralda_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "peitoral_de_rubi",
+          "label": "Peitoral de Rubi",
+          "glb": "assets/armor/peitoral_de_rubi.glb",
+          "tex": "assets/armor/peitoral_de_rubi_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "peitoral_de_ametista",
+          "label": "Peitoral de Ametista",
+          "glb": "assets/armor/peitoral_de_ametista.glb",
+          "tex": "assets/armor/peitoral_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "peitoral_de_obsidiana",
+          "label": "Peitoral de Obsidiana",
+          "glb": "assets/armor/peitoral_de_obsidiana.glb",
+          "tex": "assets/armor/peitoral_de_obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "luvas_de_couro",
+          "label": "Luvas de Couro",
+          "glb": "assets/armor/luvas_de_couro.glb",
+          "tex": "assets/armor/luvas_de_couro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "luvas_de_ferro",
+          "label": "Luvas de Ferro",
+          "glb": "assets/armor/luvas_de_ferro.glb",
+          "tex": "assets/armor/luvas_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "luvas_de_ouro",
+          "label": "Luvas de Ouro",
+          "glb": "assets/armor/luvas_de_ouro.glb",
+          "tex": "assets/armor/luvas_de_ouro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "luvas_de_diamante",
+          "label": "Luvas de Diamante",
+          "glb": "assets/armor/luvas_de_diamante.glb",
+          "tex": "assets/armor/luvas_de_diamante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "luvas_de_safira",
+          "label": "Luvas de Safira",
+          "glb": "assets/armor/luvas_de_safira.glb",
+          "tex": "assets/armor/luvas_de_safira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "luvas_de_esmeralda",
+          "label": "Luvas de Esmeralda",
+          "glb": "assets/armor/luvas_de_esmeralda.glb",
+          "tex": "assets/armor/luvas_de_esmeralda_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "luvas_de_rubi",
+          "label": "Luvas de Rubi",
+          "glb": "assets/armor/luvas_de_rubi.glb",
+          "tex": "assets/armor/luvas_de_rubi_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "luvas_de_ametista",
+          "label": "Luvas de Ametista",
+          "glb": "assets/armor/luvas_de_ametista.glb",
+          "tex": "assets/armor/luvas_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "luvas_de_obsidiana",
+          "label": "Luvas de Obsidiana",
+          "glb": "assets/armor/luvas_de_obsidiana.glb",
+          "tex": "assets/armor/luvas_de_obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "calcas_de_couro",
+          "label": "Calças de Couro",
+          "glb": "assets/armor/calcas_de_couro.glb",
+          "tex": "assets/armor/calcas_de_couro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "calcas_de_ferro",
+          "label": "Calças de Ferro",
+          "glb": "assets/armor/calcas_de_ferro.glb",
+          "tex": "assets/armor/calcas_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "calcas_de_ouro",
+          "label": "Calças de Ouro",
+          "glb": "assets/armor/calcas_de_ouro.glb",
+          "tex": "assets/armor/calcas_de_ouro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "calcas_de_diamante",
+          "label": "Calças de Diamante",
+          "glb": "assets/armor/calcas_de_diamante.glb",
+          "tex": "assets/armor/calcas_de_diamante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "calcas_de_safira",
+          "label": "Calças de Safira",
+          "glb": "assets/armor/calcas_de_safira.glb",
+          "tex": "assets/armor/calcas_de_safira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "calcas_de_esmeralda",
+          "label": "Calças de Esmeralda",
+          "glb": "assets/armor/calcas_de_esmeralda.glb",
+          "tex": "assets/armor/calcas_de_esmeralda_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "calcas_de_rubi",
+          "label": "Calças de Rubi",
+          "glb": "assets/armor/calcas_de_rubi.glb",
+          "tex": "assets/armor/calcas_de_rubi_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "calcas_de_ametista",
+          "label": "Calças de Ametista",
+          "glb": "assets/armor/calcas_de_ametista.glb",
+          "tex": "assets/armor/calcas_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "calcas_de_obsidiana",
+          "label": "Calças de Obsidiana",
+          "glb": "assets/armor/calcas_de_obsidiana.glb",
+          "tex": "assets/armor/calcas_de_obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "botas_de_couro",
+          "label": "Botas de Couro",
+          "glb": "assets/armor/botas_de_couro.glb",
+          "tex": "assets/armor/botas_de_couro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "botas_de_ferro",
+          "label": "Botas de Ferro",
+          "glb": "assets/armor/botas_de_ferro.glb",
+          "tex": "assets/armor/botas_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "botas_de_ouro",
+          "label": "Botas de Ouro",
+          "glb": "assets/armor/botas_de_ouro.glb",
+          "tex": "assets/armor/botas_de_ouro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "botas_de_diamante",
+          "label": "Botas de Diamante",
+          "glb": "assets/armor/botas_de_diamante.glb",
+          "tex": "assets/armor/botas_de_diamante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "botas_de_safira",
+          "label": "Botas de Safira",
+          "glb": "assets/armor/botas_de_safira.glb",
+          "tex": "assets/armor/botas_de_safira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "botas_de_esmeralda",
+          "label": "Botas de Esmeralda",
+          "glb": "assets/armor/botas_de_esmeralda.glb",
+          "tex": "assets/armor/botas_de_esmeralda_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "botas_de_rubi",
+          "label": "Botas de Rubi",
+          "glb": "assets/armor/botas_de_rubi.glb",
+          "tex": "assets/armor/botas_de_rubi_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "botas_de_ametista",
+          "label": "Botas de Ametista",
+          "glb": "assets/armor/botas_de_ametista.glb",
+          "tex": "assets/armor/botas_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "botas_de_obsidiana",
+          "label": "Botas de Obsidiana",
+          "glb": "assets/armor/botas_de_obsidiana.glb",
+          "tex": "assets/armor/botas_de_obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tunica_remendada",
+          "label": "Túnica Remendada",
+          "glb": "assets/armor/tunica_remendada.glb",
+          "tex": "assets/armor/tunica_remendada_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "calcas_remendadas",
+          "label": "Calças Remendadas",
+          "glb": "assets/armor/calcas_remendadas.glb",
+          "tex": "assets/armor/calcas_remendadas_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "botas_gastas",
+          "label": "Botas Gastas",
+          "glb": "assets/armor/botas_gastas.glb",
+          "tex": "assets/armor/botas_gastas_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Mantos",
+      "id": "cloaks",
+      "items": [
+        {
+          "id": "manto_de_linho",
+          "label": "Manto de Linho",
+          "glb": "assets/cloaks/manto_de_linho.glb",
+          "tex": "assets/cloaks/manto_de_linho_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "manto_de_la",
+          "label": "Manto de Lã",
+          "glb": "assets/cloaks/manto_de_la.glb",
+          "tex": "assets/cloaks/manto_de_la_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "manto_de_couro_encerado",
+          "label": "Manto de Couro Encerado",
+          "glb": "assets/cloaks/manto_de_couro_encerado.glb",
+          "tex": "assets/cloaks/manto_de_couro_encerado_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "manto_de_pele_forrada",
+          "label": "Manto de Pele Forrada",
+          "glb": "assets/cloaks/manto_de_pele_forrada.glb",
+          "tex": "assets/cloaks/manto_de_pele_forrada_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "manto_de_safira",
+          "label": "Manto de Safira",
+          "glb": "assets/cloaks/manto_de_safira.glb",
+          "tex": "assets/cloaks/manto_de_safira_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "manto_de_rubi",
+          "label": "Manto de Rubi",
+          "glb": "assets/cloaks/manto_de_rubi.glb",
+          "tex": "assets/cloaks/manto_de_rubi_tex.png",
+          "animated": false,
+          "cloth": true
+        }
+      ]
+    },
+    {
+      "cat": "Estações",
+      "id": "stations",
+      "items": [
+        {
+          "id": "fornalha",
+          "label": "Fornalha",
+          "glb": "assets/stations/fornalha.glb",
+          "tex": "assets/stations/fornalha_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "fogueira",
+          "label": "Fogueira",
+          "glb": "assets/stations/fogueira.glb",
+          "tex": "assets/stations/fogueira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "forno",
+          "label": "Forno",
+          "glb": "assets/stations/forno.glb",
+          "tex": "assets/stations/forno_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "moinho",
+          "label": "Moinho",
+          "glb": "assets/stations/moinho.glb",
+          "tex": "assets/stations/moinho_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "caldeirao",
+          "label": "Caldeirão",
+          "glb": "assets/stations/caldeirao.glb",
+          "tex": "assets/stations/caldeirao_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "macerador",
+          "label": "Macerador",
+          "glb": "assets/stations/macerador.glb",
+          "tex": "assets/stations/macerador_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "ferraria",
+          "label": "Ferraria",
+          "glb": "assets/stations/ferraria.glb",
+          "tex": "assets/stations/ferraria_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bigorna",
+          "label": "Bigorna",
+          "glb": "assets/stations/bigorna.glb",
+          "tex": "assets/stations/bigorna_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bancada_de_carpintaria",
+          "label": "Bancada de Carpintaria",
+          "glb": "assets/stations/bancada_de_carpintaria.glb",
+          "tex": "assets/stations/bancada_de_carpintaria_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "varal_de_secagem",
+          "label": "Varal de Secagem",
+          "glb": "assets/stations/varal_de_secagem.glb",
+          "tex": "assets/stations/varal_de_secagem_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "composteira",
+          "label": "Composteira",
+          "glb": "assets/stations/composteira.glb",
+          "tex": "assets/stations/composteira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bebedouro_de_pedra",
+          "label": "Bebedouro de Pedra",
+          "glb": "assets/stations/bebedouro_de_pedra.glb",
+          "tex": "assets/stations/bebedouro_de_pedra_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tear",
+          "label": "Tear",
+          "glb": "assets/stations/tear.glb",
+          "tex": "assets/stations/tear_tex.png",
+          "animated": false,
+          "cloth": true
+        }
+      ]
+    },
+    {
+      "cat": "Construção e Mobília",
+      "id": "building",
+      "items": [
+        {
+          "id": "parede_de_madeira",
+          "label": "Parede de Madeira",
+          "glb": "assets/building/parede_de_madeira.glb",
+          "tex": "assets/building/parede_de_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "parede_rustica_de_madeira",
+          "label": "Parede Rústica de Madeira",
+          "glb": "assets/building/parede_rustica_de_madeira.glb",
+          "tex": "assets/building/parede_rustica_de_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "parede_de_tijolo",
+          "label": "Parede de Tijolo",
+          "glb": "assets/building/parede_de_tijolo.glb",
+          "tex": "assets/building/parede_de_tijolo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "parede_de_pedra",
+          "label": "Parede de Pedra",
+          "glb": "assets/building/parede_de_pedra.glb",
+          "tex": "assets/building/parede_de_pedra_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cerca_de_madeira",
+          "label": "Cerca de Madeira",
+          "glb": "assets/building/cerca_de_madeira.glb",
+          "tex": "assets/building/cerca_de_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "porta_de_madeira",
+          "label": "Porta de Madeira",
+          "glb": "assets/building/porta_de_madeira.glb",
+          "tex": "assets/building/porta_de_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "porta_de_ferro",
+          "label": "Porta de Ferro",
+          "glb": "assets/building/porta_de_ferro.glb",
+          "tex": "assets/building/porta_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "escada_de_madeira",
+          "label": "Escada de Madeira",
+          "glb": "assets/building/escada_de_madeira.glb",
+          "tex": "assets/building/escada_de_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "piso_de_madeira",
+          "label": "Piso de Madeira",
+          "glb": "assets/building/piso_de_madeira.glb",
+          "tex": "assets/building/piso_de_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "piso_de_pedra",
+          "label": "Piso de Pedra",
+          "glb": "assets/building/piso_de_pedra.glb",
+          "tex": "assets/building/piso_de_pedra_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "chao_batido",
+          "label": "Chão Batido",
+          "glb": "assets/building/chao_batido.glb",
+          "tex": "assets/building/chao_batido_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bloco_de_tijolo",
+          "label": "Bloco de Tijolo",
+          "glb": "assets/building/bloco_de_tijolo.glb",
+          "tex": "assets/building/bloco_de_tijolo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bloco_de_pedra",
+          "label": "Bloco de Pedra",
+          "glb": "assets/building/bloco_de_pedra.glb",
+          "tex": "assets/building/bloco_de_pedra_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tocha_de_chao_madeira",
+          "label": "Tocha de Chão Madeira",
+          "glb": "assets/building/tocha_de_chao_madeira.glb",
+          "tex": "assets/building/tocha_de_chao_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tocha_de_chao_ferro",
+          "label": "Tocha de Chão Ferro",
+          "glb": "assets/building/tocha_de_chao_ferro.glb",
+          "tex": "assets/building/tocha_de_chao_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tocha_de_chao_pedra",
+          "label": "Tocha de Chão Pedra",
+          "glb": "assets/building/tocha_de_chao_pedra.glb",
+          "tex": "assets/building/tocha_de_chao_pedra_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bau_de_madeira",
+          "label": "Baú de Madeira",
+          "glb": "assets/building/bau_de_madeira.glb",
+          "tex": "assets/building/bau_de_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cama_simples",
+          "label": "Cama Simples",
+          "glb": "assets/building/cama_simples.glb",
+          "tex": "assets/building/cama_simples_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "balcao",
+          "label": "Balcão",
+          "glb": "assets/building/balcao.glb",
+          "tex": "assets/building/balcao_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "banco",
+          "label": "Banco",
+          "glb": "assets/building/banco.glb",
+          "tex": "assets/building/banco_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "barril",
+          "label": "Barril",
+          "glb": "assets/building/barril.glb",
+          "tex": "assets/building/barril_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "estante_de_livros",
+          "label": "Estante de Livros",
+          "glb": "assets/building/estante_de_livros.glb",
+          "tex": "assets/building/estante_de_livros_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "suporte_de_armas",
+          "label": "Suporte de Armas",
+          "glb": "assets/building/suporte_de_armas.glb",
+          "tex": "assets/building/suporte_de_armas_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pasto",
+          "label": "Pasto",
+          "glb": "assets/building/pasto.glb",
+          "tex": "assets/building/pasto_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "saco",
+          "label": "Saco",
+          "glb": "assets/building/saco.glb",
+          "tex": "assets/building/saco_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "caixote",
+          "label": "Caixote",
+          "glb": "assets/building/caixote.glb",
+          "tex": "assets/building/caixote_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cranio",
+          "label": "Crânio",
+          "glb": "assets/building/cranio.glb",
+          "tex": "assets/building/cranio_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "ponte",
+          "label": "Ponte",
+          "glb": "assets/building/ponte.glb",
+          "tex": "assets/building/ponte_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "vau",
+          "label": "Vau",
+          "glb": "assets/building/vau.glb",
+          "tex": "assets/building/vau_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "terra_arada",
+          "label": "Terra Arada",
+          "glb": "assets/building/terra_arada.glb",
+          "tex": "assets/building/terra_arada_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "terra_molhada",
+          "label": "Terra Molhada",
+          "glb": "assets/building/terra_molhada.glb",
+          "tex": "assets/building/terra_molhada_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tenda",
+          "label": "Tenda",
+          "glb": "assets/building/tenda.glb",
+          "tex": "assets/building/tenda_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "estandarte",
+          "label": "Estandarte",
+          "glb": "assets/building/estandarte.glb",
+          "tex": "assets/building/estandarte_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "agua",
+          "label": "Água",
+          "glb": "assets/building/agua.glb",
+          "tex": "assets/building/agua_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "poca_de_lava",
+          "label": "Poça de Lava",
+          "glb": "assets/building/poca_de_lava.glb",
+          "tex": "assets/building/poca_de_lava_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "placa_de_gelo",
+          "label": "Placa de Gelo",
+          "glb": "assets/building/placa_de_gelo.glb",
+          "tex": "assets/building/placa_de_gelo_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "cachoeira",
+          "label": "Cachoeira",
+          "glb": "assets/building/cachoeira.glb",
+          "tex": "assets/building/cachoeira_tex.png",
+          "animated": true,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Cultivos e Comida",
+      "id": "food_crops",
+      "items": [
+        {
+          "id": "semente_de_cenoura",
+          "label": "Semente de Cenoura",
+          "glb": "assets/food_crops/semente_de_cenoura.glb",
+          "tex": "assets/food_crops/semente_de_cenoura_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cenoura",
+          "label": "Cenoura",
+          "glb": "assets/food_crops/cenoura.glb",
+          "tex": "assets/food_crops/cenoura_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "semente_de_batata",
+          "label": "Semente de Batata",
+          "glb": "assets/food_crops/semente_de_batata.glb",
+          "tex": "assets/food_crops/semente_de_batata_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "batata",
+          "label": "Batata",
+          "glb": "assets/food_crops/batata.glb",
+          "tex": "assets/food_crops/batata_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "batata_assada",
+          "label": "Batata Assada",
+          "glb": "assets/food_crops/batata_assada.glb",
+          "tex": "assets/food_crops/batata_assada_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "semente_de_trigo",
+          "label": "Semente de Trigo",
+          "glb": "assets/food_crops/semente_de_trigo.glb",
+          "tex": "assets/food_crops/semente_de_trigo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "trigo",
+          "label": "Trigo",
+          "glb": "assets/food_crops/trigo.glb",
+          "tex": "assets/food_crops/trigo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "farinha",
+          "label": "Farinha",
+          "glb": "assets/food_crops/farinha.glb",
+          "tex": "assets/food_crops/farinha_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pao",
+          "label": "Pão",
+          "glb": "assets/food_crops/pao.glb",
+          "tex": "assets/food_crops/pao_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "semente_de_repolho",
+          "label": "Semente de Repolho",
+          "glb": "assets/food_crops/semente_de_repolho.glb",
+          "tex": "assets/food_crops/semente_de_repolho_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "repolho",
+          "label": "Repolho",
+          "glb": "assets/food_crops/repolho.glb",
+          "tex": "assets/food_crops/repolho_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "ensopado_de_repolho",
+          "label": "Ensopado de Repolho",
+          "glb": "assets/food_crops/ensopado_de_repolho.glb",
+          "tex": "assets/food_crops/ensopado_de_repolho_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "semente_de_abobora",
+          "label": "Semente de Abóbora",
+          "glb": "assets/food_crops/semente_de_abobora.glb",
+          "tex": "assets/food_crops/semente_de_abobora_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "abobora",
+          "label": "Abóbora",
+          "glb": "assets/food_crops/abobora.glb",
+          "tex": "assets/food_crops/abobora_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "abobora_assada",
+          "label": "Abóbora Assada",
+          "glb": "assets/food_crops/abobora_assada.glb",
+          "tex": "assets/food_crops/abobora_assada_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "dente_de_alho",
+          "label": "Dente de Alho",
+          "glb": "assets/food_crops/dente_de_alho.glb",
+          "tex": "assets/food_crops/dente_de_alho_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "alho",
+          "label": "Alho",
+          "glb": "assets/food_crops/alho.glb",
+          "tex": "assets/food_crops/alho_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "semente_de_pimenta_brasa",
+          "label": "Semente de Pimenta-Brasa",
+          "glb": "assets/food_crops/semente_de_pimenta_brasa.glb",
+          "tex": "assets/food_crops/semente_de_pimenta_brasa_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pimenta_brasa",
+          "label": "Pimenta-Brasa",
+          "glb": "assets/food_crops/pimenta_brasa.glb",
+          "tex": "assets/food_crops/pimenta_brasa_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "esporo_de_cogumelo_brilhante",
+          "label": "Esporo de Cogumelo Brilhante",
+          "glb": "assets/food_crops/esporo_de_cogumelo_brilhante.glb",
+          "tex": "assets/food_crops/esporo_de_cogumelo_brilhante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cogumelo_brilhante",
+          "label": "Cogumelo Brilhante",
+          "glb": "assets/food_crops/cogumelo_brilhante.glb",
+          "tex": "assets/food_crops/cogumelo_brilhante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "semente_de_mandragora",
+          "label": "Semente de Mandrágora",
+          "glb": "assets/food_crops/semente_de_mandragora.glb",
+          "tex": "assets/food_crops/semente_de_mandragora_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mandragora",
+          "label": "Mandrágora",
+          "glb": "assets/food_crops/mandragora.glb",
+          "tex": "assets/food_crops/mandragora_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "semente_de_beladona",
+          "label": "Semente de Beladona",
+          "glb": "assets/food_crops/semente_de_beladona.glb",
+          "tex": "assets/food_crops/semente_de_beladona_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "beladona",
+          "label": "Beladona",
+          "glb": "assets/food_crops/beladona.glb",
+          "tex": "assets/food_crops/beladona_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "semente_de_flor_do_sol",
+          "label": "Semente de Flor-do-Sol",
+          "glb": "assets/food_crops/semente_de_flor_do_sol.glb",
+          "tex": "assets/food_crops/semente_de_flor_do_sol_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "flor_do_sol",
+          "label": "Flor-do-Sol",
+          "glb": "assets/food_crops/flor_do_sol.glb",
+          "tex": "assets/food_crops/flor_do_sol_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "semente_de_urtiga_de_ferro",
+          "label": "Semente de Urtiga de Ferro",
+          "glb": "assets/food_crops/semente_de_urtiga_de_ferro.glb",
+          "tex": "assets/food_crops/semente_de_urtiga_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "urtiga_de_ferro",
+          "label": "Urtiga de Ferro",
+          "glb": "assets/food_crops/urtiga_de_ferro.glb",
+          "tex": "assets/food_crops/urtiga_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cogumelo",
+          "label": "Cogumelo",
+          "glb": "assets/food_crops/cogumelo.glb",
+          "tex": "assets/food_crops/cogumelo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cogumelo_vermelho",
+          "label": "Cogumelo Vermelho",
+          "glb": "assets/food_crops/cogumelo_vermelho.glb",
+          "tex": "assets/food_crops/cogumelo_vermelho_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cogumelo_roxo",
+          "label": "Cogumelo Roxo",
+          "glb": "assets/food_crops/cogumelo_roxo.glb",
+          "tex": "assets/food_crops/cogumelo_roxo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "maca",
+          "label": "Maçã",
+          "glb": "assets/food_crops/maca.glb",
+          "tex": "assets/food_crops/maca_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "maca_assada",
+          "label": "Maçã Assada",
+          "glb": "assets/food_crops/maca_assada.glb",
+          "tex": "assets/food_crops/maca_assada_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "carne_crua",
+          "label": "Carne Crua",
+          "glb": "assets/food_crops/carne_crua.glb",
+          "tex": "assets/food_crops/carne_crua_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "carne_cozida",
+          "label": "Carne Cozida",
+          "glb": "assets/food_crops/carne_cozida.glb",
+          "tex": "assets/food_crops/carne_cozida_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "carne_temperada",
+          "label": "Carne Temperada",
+          "glb": "assets/food_crops/carne_temperada.glb",
+          "tex": "assets/food_crops/carne_temperada_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "ovo",
+          "label": "Ovo",
+          "glb": "assets/food_crops/ovo.glb",
+          "tex": "assets/food_crops/ovo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "ovo_cozido",
+          "label": "Ovo Cozido",
+          "glb": "assets/food_crops/ovo_cozido.glb",
+          "tex": "assets/food_crops/ovo_cozido_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "omelete",
+          "label": "Omelete",
+          "glb": "assets/food_crops/omelete.glb",
+          "tex": "assets/food_crops/omelete_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pao_de_ovo",
+          "label": "Pão de Ovo",
+          "glb": "assets/food_crops/pao_de_ovo.glb",
+          "tex": "assets/food_crops/pao_de_ovo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "sopa_de_cogumelo_de_caverna",
+          "label": "Sopa de Cogumelo de Caverna",
+          "glb": "assets/food_crops/sopa_de_cogumelo_de_caverna.glb",
+          "tex": "assets/food_crops/sopa_de_cogumelo_de_caverna_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "carne_seca",
+          "label": "Carne Seca",
+          "glb": "assets/food_crops/carne_seca.glb",
+          "tex": "assets/food_crops/carne_seca_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "peixe_seco",
+          "label": "Peixe Seco",
+          "glb": "assets/food_crops/peixe_seco.glb",
+          "tex": "assets/food_crops/peixe_seco_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cogumelo_seco",
+          "label": "Cogumelo Seco",
+          "glb": "assets/food_crops/cogumelo_seco.glb",
+          "tex": "assets/food_crops/cogumelo_seco_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "maca_seca",
+          "label": "Maçã Seca",
+          "glb": "assets/food_crops/maca_seca.glb",
+          "tex": "assets/food_crops/maca_seca_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "jarro_de_ceramica",
+          "label": "Jarro de Cerâmica",
+          "glb": "assets/food_crops/jarro_de_ceramica.glb",
+          "tex": "assets/food_crops/jarro_de_ceramica_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Cogumelos de Alquimia",
+      "id": "alchemy_mushrooms",
+      "items": [
+        {
+          "id": "cogumelo_lume",
+          "label": "Cogumelo Lume",
+          "glb": "assets/alchemy_mushrooms/cogumelo_lume.glb",
+          "tex": "assets/alchemy_mushrooms/cogumelo_lume_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "capuz_de_cristal",
+          "label": "Capuz-de-Cristal",
+          "glb": "assets/alchemy_mushrooms/capuz_de_cristal.glb",
+          "tex": "assets/alchemy_mushrooms/capuz_de_cristal_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "orelha_de_geodo",
+          "label": "Orelha-de-Geodo",
+          "glb": "assets/alchemy_mushrooms/orelha_de_geodo.glb",
+          "tex": "assets/alchemy_mushrooms/orelha_de_geodo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cogumelo_de_brasa",
+          "label": "Cogumelo de Brasa",
+          "glb": "assets/alchemy_mushrooms/cogumelo_de_brasa.glb",
+          "tex": "assets/alchemy_mushrooms/cogumelo_de_brasa_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "fumo_negro",
+          "label": "Fumo-Negro",
+          "glb": "assets/alchemy_mushrooms/fumo_negro.glb",
+          "tex": "assets/alchemy_mushrooms/fumo_negro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cogumelo_de_vidro",
+          "label": "Cogumelo de Vidro",
+          "glb": "assets/alchemy_mushrooms/cogumelo_de_vidro.glb",
+          "tex": "assets/alchemy_mushrooms/cogumelo_de_vidro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cogumelo_palido",
+          "label": "Cogumelo Pálido",
+          "glb": "assets/alchemy_mushrooms/cogumelo_palido.glb",
+          "tex": "assets/alchemy_mushrooms/cogumelo_palido_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "fungo_de_brasa",
+          "label": "Fungo de Brasa",
+          "glb": "assets/alchemy_mushrooms/fungo_de_brasa.glb",
+          "tex": "assets/alchemy_mushrooms/fungo_de_brasa_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Poções e Tratamentos",
+      "id": "potions",
+      "items": [
+        {
+          "id": "pocao_de_cura",
+          "label": "Poção de Cura",
+          "glb": "assets/potions/pocao_de_cura.glb",
+          "tex": "assets/potions/pocao_de_cura_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pocao_de_vigor",
+          "label": "Poção de Vigor",
+          "glb": "assets/potions/pocao_de_vigor.glb",
+          "tex": "assets/potions/pocao_de_vigor_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pocao_arcana",
+          "label": "Poção Arcana",
+          "glb": "assets/potions/pocao_arcana.glb",
+          "tex": "assets/potions/pocao_arcana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "antidoto",
+          "label": "Antídoto",
+          "glb": "assets/potions/antidoto.glb",
+          "tex": "assets/potions/antidoto_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "analgesico",
+          "label": "Analgésico",
+          "glb": "assets/potions/analgesico.glb",
+          "tex": "assets/potions/analgesico_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pocao_de_pele_de_pedra",
+          "label": "Poção de Pele de Pedra",
+          "glb": "assets/potions/pocao_de_pele_de_pedra.glb",
+          "tex": "assets/potions/pocao_de_pele_de_pedra_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "oleo_de_lamina",
+          "label": "Óleo de Lâmina",
+          "glb": "assets/potions/oleo_de_lamina.glb",
+          "tex": "assets/potions/oleo_de_lamina_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pocao_de_calor",
+          "label": "Poção de Calor",
+          "glb": "assets/potions/pocao_de_calor.glb",
+          "tex": "assets/potions/pocao_de_calor_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pocao_anti_fogo",
+          "label": "Poção Anti-Fogo",
+          "glb": "assets/potions/pocao_anti_fogo.glb",
+          "tex": "assets/potions/pocao_anti_fogo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pocao_de_clareza",
+          "label": "Poção de Clareza",
+          "glb": "assets/potions/pocao_de_clareza.glb",
+          "tex": "assets/potions/pocao_de_clareza_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pocao_de_lanterna",
+          "label": "Poção de Lanterna",
+          "glb": "assets/potions/pocao_de_lanterna.glb",
+          "tex": "assets/potions/pocao_de_lanterna_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "elixir_de_sangue",
+          "label": "Elixir de Sangue",
+          "glb": "assets/potions/elixir_de_sangue.glb",
+          "tex": "assets/potions/elixir_de_sangue_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "extrato_de_flor_do_sol",
+          "label": "Extrato de Flor-do-Sol",
+          "glb": "assets/potions/extrato_de_flor_do_sol.glb",
+          "tex": "assets/potions/extrato_de_flor_do_sol_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "extrato_de_pimenta",
+          "label": "Extrato de Pimenta",
+          "glb": "assets/potions/extrato_de_pimenta.glb",
+          "tex": "assets/potions/extrato_de_pimenta_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "extrato_de_cogumelo_brilhante",
+          "label": "Extrato de Cogumelo Brilhante",
+          "glb": "assets/potions/extrato_de_cogumelo_brilhante.glb",
+          "tex": "assets/potions/extrato_de_cogumelo_brilhante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "extrato_de_alho",
+          "label": "Extrato de Alho",
+          "glb": "assets/potions/extrato_de_alho.glb",
+          "tex": "assets/potions/extrato_de_alho_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "extrato_de_urtiga",
+          "label": "Extrato de Urtiga",
+          "glb": "assets/potions/extrato_de_urtiga.glb",
+          "tex": "assets/potions/extrato_de_urtiga_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "extrato_de_mandragora",
+          "label": "Extrato de Mandrágora",
+          "glb": "assets/potions/extrato_de_mandragora.glb",
+          "tex": "assets/potions/extrato_de_mandragora_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bandagem",
+          "label": "Bandagem",
+          "glb": "assets/potions/bandagem.glb",
+          "tex": "assets/potions/bandagem_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "compressa",
+          "label": "Compressa",
+          "glb": "assets/potions/compressa.glb",
+          "tex": "assets/potions/compressa_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tala",
+          "label": "Tala",
+          "glb": "assets/potions/tala.glb",
+          "tex": "assets/potions/tala_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "adubo",
+          "label": "Adubo",
+          "glb": "assets/potions/adubo.glb",
+          "tex": "assets/potions/adubo_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Peixes",
+      "id": "fish",
+      "items": [
+        {
+          "id": "peixe_cru",
+          "label": "Peixe Cru",
+          "glb": "assets/fish/peixe_cru.glb",
+          "tex": "assets/fish/peixe_cru_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "peixe_cozido",
+          "label": "Peixe Cozido",
+          "glb": "assets/fish/peixe_cozido.glb",
+          "tex": "assets/fish/peixe_cozido_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lambari",
+          "label": "Lambari",
+          "glb": "assets/fish/lambari.glb",
+          "tex": "assets/fish/lambari_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "truta",
+          "label": "Truta",
+          "glb": "assets/fish/truta.glb",
+          "tex": "assets/fish/truta_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bagre_lama",
+          "label": "Bagre-Lama",
+          "glb": "assets/fish/bagre_lama.glb",
+          "tex": "assets/fish/bagre_lama_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "carpa_lua",
+          "label": "Carpa-Lua",
+          "glb": "assets/fish/carpa_lua.glb",
+          "tex": "assets/fish/carpa_lua_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tetra_cego",
+          "label": "Tetra-Cego",
+          "glb": "assets/fish/tetra_cego.glb",
+          "tex": "assets/fish/tetra_cego_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "enguia_de_caverna",
+          "label": "Enguia-de-Caverna",
+          "glb": "assets/fish/enguia_de_caverna.glb",
+          "tex": "assets/fish/enguia_de_caverna_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bagre_lanterna",
+          "label": "Bagre-Lanterna",
+          "glb": "assets/fish/bagre_lanterna.glb",
+          "tex": "assets/fish/bagre_lanterna_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "peixe_quartzo",
+          "label": "Peixe-Quartzo",
+          "glb": "assets/fish/peixe_quartzo.glb",
+          "tex": "assets/fish/peixe_quartzo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bacalhau_artico",
+          "label": "Bacalhau-Ártico",
+          "glb": "assets/fish/bacalhau_artico.glb",
+          "tex": "assets/fish/bacalhau_artico_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "salmao_glacial",
+          "label": "Salmão-Glacial",
+          "glb": "assets/fish/salmao_glacial.glb",
+          "tex": "assets/fish/salmao_glacial_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "enguia_de_gelo",
+          "label": "Enguia-de-Gelo",
+          "glb": "assets/fish/enguia_de_gelo.glb",
+          "tex": "assets/fish/enguia_de_gelo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "perca_cristal",
+          "label": "Perca-Cristal",
+          "glb": "assets/fish/perca_cristal.glb",
+          "tex": "assets/fish/perca_cristal_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "piranha",
+          "label": "Piranha",
+          "glb": "assets/fish/piranha.glb",
+          "tex": "assets/fish/piranha_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "traira_do_brejo",
+          "label": "Traíra-do-Brejo",
+          "glb": "assets/fish/traira_do_brejo.glb",
+          "tex": "assets/fish/traira_do_brejo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "sanguessuga_real",
+          "label": "Sanguessuga-Real",
+          "glb": "assets/fish/sanguessuga_real.glb",
+          "tex": "assets/fish/sanguessuga_real_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "carpa_vampiro",
+          "label": "Carpa-Vampiro",
+          "glb": "assets/fish/carpa_vampiro.glb",
+          "tex": "assets/fish/carpa_vampiro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tilapia_termal",
+          "label": "Tilápia-Termal",
+          "glb": "assets/fish/tilapia_termal.glb",
+          "tex": "assets/fish/tilapia_termal_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "enguia_magma",
+          "label": "Enguia-Magma",
+          "glb": "assets/fish/enguia_magma.glb",
+          "tex": "assets/fish/enguia_magma_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "baiacu_de_enxofre",
+          "label": "Baiacu-de-Enxofre",
+          "glb": "assets/fish/baiacu_de_enxofre.glb",
+          "tex": "assets/fish/baiacu_de_enxofre_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "koi_brasa",
+          "label": "Koi-Brasa",
+          "glb": "assets/fish/koi_brasa.glb",
+          "tex": "assets/fish/koi_brasa_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "peixe_vidro",
+          "label": "Peixe-Vidro",
+          "glb": "assets/fish/peixe_vidro.glb",
+          "tex": "assets/fish/peixe_vidro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "axolote_de_caverna",
+          "label": "Axolote-de-Caverna",
+          "glb": "assets/fish/axolote_de_caverna.glb",
+          "tex": "assets/fish/axolote_de_caverna_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "raia_ametista",
+          "label": "Raia-Ametista",
+          "glb": "assets/fish/raia_ametista.glb",
+          "tex": "assets/fish/raia_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tetra_prisma",
+          "label": "Tetra-Prisma",
+          "glb": "assets/fish/tetra_prisma.glb",
+          "tex": "assets/fish/tetra_prisma_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "peixe_pedra_abissal",
+          "label": "Peixe-Pedra-Abissal",
+          "glb": "assets/fish/peixe_pedra_abissal.glb",
+          "tex": "assets/fish/peixe_pedra_abissal_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lanterna_abissal",
+          "label": "Lanterna-Abissal",
+          "glb": "assets/fish/lanterna_abissal.glb",
+          "tex": "assets/fish/lanterna_abissal_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "enguia_obsidiana",
+          "label": "Enguia-Obsidiana",
+          "glb": "assets/fish/enguia_obsidiana.glb",
+          "tex": "assets/fish/enguia_obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "leviata_da_fenda",
+          "label": "Leviatã-da-Fenda",
+          "glb": "assets/fish/leviata_da_fenda.glb",
+          "tex": "assets/fish/leviata_da_fenda_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Dungeon: Catacumba",
+      "id": "dungeon_catacomb",
+      "items": [
+        {
+          "id": "catacumba_altar",
+          "label": "Catacumba Altar",
+          "glb": "assets/dungeon_catacomb/catacumba_altar.glb",
+          "tex": "assets/dungeon_catacomb/catacumba_altar_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "catacumba_bau",
+          "label": "Catacumba Baú",
+          "glb": "assets/dungeon_catacomb/catacumba_bau.glb",
+          "tex": "assets/dungeon_catacomb/catacumba_bau_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "catacumba_chao_a",
+          "label": "Catacumba Chão A",
+          "glb": "assets/dungeon_catacomb/catacumba_chao_a.glb",
+          "tex": "assets/dungeon_catacomb/catacumba_chao_a_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "catacumba_chao_b",
+          "label": "Catacumba Chão B",
+          "glb": "assets/dungeon_catacomb/catacumba_chao_b.glb",
+          "tex": "assets/dungeon_catacomb/catacumba_chao_b_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "catacumba_escada_descida",
+          "label": "Catacumba Escada Descida",
+          "glb": "assets/dungeon_catacomb/catacumba_escada_descida.glb",
+          "tex": "assets/dungeon_catacomb/catacumba_escada_descida_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "catacumba_ossos",
+          "label": "Catacumba Ossos",
+          "glb": "assets/dungeon_catacomb/catacumba_ossos.glb",
+          "tex": "assets/dungeon_catacomb/catacumba_ossos_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "catacumba_parede",
+          "label": "Catacumba Parede",
+          "glb": "assets/dungeon_catacomb/catacumba_parede.glb",
+          "tex": "assets/dungeon_catacomb/catacumba_parede_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "catacumba_parede_com_estante",
+          "label": "Catacumba Parede com Estante",
+          "glb": "assets/dungeon_catacomb/catacumba_parede_com_estante.glb",
+          "tex": "assets/dungeon_catacomb/catacumba_parede_com_estante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "catacumba_parede_lancador_dardos",
+          "label": "Catacumba Parede Lançador Dardos",
+          "glb": "assets/dungeon_catacomb/catacumba_parede_lancador_dardos.glb",
+          "tex": "assets/dungeon_catacomb/catacumba_parede_lancador_dardos_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "catacumba_tocha_acesa",
+          "label": "Catacumba Tocha Acesa",
+          "glb": "assets/dungeon_catacomb/catacumba_tocha_acesa.glb",
+          "tex": "assets/dungeon_catacomb/catacumba_tocha_acesa_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "catacumba_tocha_apagada",
+          "label": "Catacumba Tocha Apagada",
+          "glb": "assets/dungeon_catacomb/catacumba_tocha_apagada.glb",
+          "tex": "assets/dungeon_catacomb/catacumba_tocha_apagada_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "catacumba_porta",
+          "label": "Catacumba Porta",
+          "glb": "assets/dungeon_catacomb/catacumba_porta.glb",
+          "tex": "assets/dungeon_catacomb/catacumba_porta_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "catacumba_sarcofago",
+          "label": "Catacumba Sarcófago",
+          "glb": "assets/dungeon_catacomb/catacumba_sarcofago.glb",
+          "tex": "assets/dungeon_catacomb/catacumba_sarcofago_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "catacumba_teia",
+          "label": "Catacumba Teia",
+          "glb": "assets/dungeon_catacomb/catacumba_teia.glb",
+          "tex": "assets/dungeon_catacomb/catacumba_teia_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "catacumba_urna",
+          "label": "Catacumba Urna",
+          "glb": "assets/dungeon_catacomb/catacumba_urna.glb",
+          "tex": "assets/dungeon_catacomb/catacumba_urna_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Dungeon: Mina",
+      "id": "dungeon_mine",
+      "items": [
+        {
+          "id": "mina_altar",
+          "label": "Mina Altar",
+          "glb": "assets/dungeon_mine/mina_altar.glb",
+          "tex": "assets/dungeon_mine/mina_altar_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mina_bau",
+          "label": "Mina Baú",
+          "glb": "assets/dungeon_mine/mina_bau.glb",
+          "tex": "assets/dungeon_mine/mina_bau_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mina_caixote",
+          "label": "Mina Caixote",
+          "glb": "assets/dungeon_mine/mina_caixote.glb",
+          "tex": "assets/dungeon_mine/mina_caixote_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mina_chao_a",
+          "label": "Mina Chão A",
+          "glb": "assets/dungeon_mine/mina_chao_a.glb",
+          "tex": "assets/dungeon_mine/mina_chao_a_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mina_chao_b",
+          "label": "Mina Chão B",
+          "glb": "assets/dungeon_mine/mina_chao_b.glb",
+          "tex": "assets/dungeon_mine/mina_chao_b_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mina_desabamento",
+          "label": "Mina Desabamento",
+          "glb": "assets/dungeon_mine/mina_desabamento.glb",
+          "tex": "assets/dungeon_mine/mina_desabamento_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mina_escada_descida",
+          "label": "Mina Escada Descida",
+          "glb": "assets/dungeon_mine/mina_escada_descida.glb",
+          "tex": "assets/dungeon_mine/mina_escada_descida_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mina_escora",
+          "label": "Mina Escora",
+          "glb": "assets/dungeon_mine/mina_escora.glb",
+          "tex": "assets/dungeon_mine/mina_escora_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mina_parede",
+          "label": "Mina Parede",
+          "glb": "assets/dungeon_mine/mina_parede.glb",
+          "tex": "assets/dungeon_mine/mina_parede_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mina_parede_escorada",
+          "label": "Mina Parede Escorada",
+          "glb": "assets/dungeon_mine/mina_parede_escorada.glb",
+          "tex": "assets/dungeon_mine/mina_parede_escorada_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mina_parede_lancador",
+          "label": "Mina Parede Lançador",
+          "glb": "assets/dungeon_mine/mina_parede_lancador.glb",
+          "tex": "assets/dungeon_mine/mina_parede_lancador_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mina_tocha_acesa",
+          "label": "Mina Tocha Acesa",
+          "glb": "assets/dungeon_mine/mina_tocha_acesa.glb",
+          "tex": "assets/dungeon_mine/mina_tocha_acesa_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mina_tocha_apagada",
+          "label": "Mina Tocha Apagada",
+          "glb": "assets/dungeon_mine/mina_tocha_apagada.glb",
+          "tex": "assets/dungeon_mine/mina_tocha_apagada_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mina_porta",
+          "label": "Mina Porta",
+          "glb": "assets/dungeon_mine/mina_porta.glb",
+          "tex": "assets/dungeon_mine/mina_porta_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mina_trilho",
+          "label": "Mina Trilho",
+          "glb": "assets/dungeon_mine/mina_trilho.glb",
+          "tex": "assets/dungeon_mine/mina_trilho_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mina_vagoneta",
+          "label": "Mina Vagoneta",
+          "glb": "assets/dungeon_mine/mina_vagoneta.glb",
+          "tex": "assets/dungeon_mine/mina_vagoneta_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Dungeon: Prisão",
+      "id": "dungeon_prison",
+      "items": [
+        {
+          "id": "prisao_altar",
+          "label": "Prisão Altar",
+          "glb": "assets/dungeon_prison/prisao_altar.glb",
+          "tex": "assets/dungeon_prison/prisao_altar_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_balde",
+          "label": "Prisão Balde",
+          "glb": "assets/dungeon_prison/prisao_balde.glb",
+          "tex": "assets/dungeon_prison/prisao_balde_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_bau",
+          "label": "Prisão Baú",
+          "glb": "assets/dungeon_prison/prisao_bau.glb",
+          "tex": "assets/dungeon_prison/prisao_bau_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_cama",
+          "label": "Prisão Cama",
+          "glb": "assets/dungeon_prison/prisao_cama.glb",
+          "tex": "assets/dungeon_prison/prisao_cama_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_cerca_de_ferro",
+          "label": "Prisão Cerca de Ferro",
+          "glb": "assets/dungeon_prison/prisao_cerca_de_ferro.glb",
+          "tex": "assets/dungeon_prison/prisao_cerca_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_chao_a",
+          "label": "Prisão Chão A",
+          "glb": "assets/dungeon_prison/prisao_chao_a.glb",
+          "tex": "assets/dungeon_prison/prisao_chao_a_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_chao_b",
+          "label": "Prisão Chão B",
+          "glb": "assets/dungeon_prison/prisao_chao_b.glb",
+          "tex": "assets/dungeon_prison/prisao_chao_b_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_escada_descida",
+          "label": "Prisão Escada Descida",
+          "glb": "assets/dungeon_prison/prisao_escada_descida.glb",
+          "tex": "assets/dungeon_prison/prisao_escada_descida_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_grade",
+          "label": "Prisão Grade",
+          "glb": "assets/dungeon_prison/prisao_grade.glb",
+          "tex": "assets/dungeon_prison/prisao_grade_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_parede",
+          "label": "Prisão Parede",
+          "glb": "assets/dungeon_prison/prisao_parede.glb",
+          "tex": "assets/dungeon_prison/prisao_parede_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_parede_com_estante",
+          "label": "Prisão Parede com Estante",
+          "glb": "assets/dungeon_prison/prisao_parede_com_estante.glb",
+          "tex": "assets/dungeon_prison/prisao_parede_com_estante_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_parede_lancador",
+          "label": "Prisão Parede Lançador",
+          "glb": "assets/dungeon_prison/prisao_parede_lancador.glb",
+          "tex": "assets/dungeon_prison/prisao_parede_lancador_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_tocha_acesa",
+          "label": "Prisão Tocha Acesa",
+          "glb": "assets/dungeon_prison/prisao_tocha_acesa.glb",
+          "tex": "assets/dungeon_prison/prisao_tocha_acesa_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_tocha_apagada",
+          "label": "Prisão Tocha Apagada",
+          "glb": "assets/dungeon_prison/prisao_tocha_apagada.glb",
+          "tex": "assets/dungeon_prison/prisao_tocha_apagada_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_porta_de_cela_comum",
+          "label": "Prisão Porta de Cela Comum",
+          "glb": "assets/dungeon_prison/prisao_porta_de_cela_comum.glb",
+          "tex": "assets/dungeon_prison/prisao_porta_de_cela_comum_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_porta_de_cela_nivel_1",
+          "label": "Prisão Porta de Cela Nível 1",
+          "glb": "assets/dungeon_prison/prisao_porta_de_cela_nivel_1.glb",
+          "tex": "assets/dungeon_prison/prisao_porta_de_cela_nivel_1_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_porta_de_cela_nivel_2",
+          "label": "Prisão Porta de Cela Nível 2",
+          "glb": "assets/dungeon_prison/prisao_porta_de_cela_nivel_2.glb",
+          "tex": "assets/dungeon_prison/prisao_porta_de_cela_nivel_2_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_porta_de_cela_nivel_3",
+          "label": "Prisão Porta de Cela Nível 3",
+          "glb": "assets/dungeon_prison/prisao_porta_de_cela_nivel_3.glb",
+          "tex": "assets/dungeon_prison/prisao_porta_de_cela_nivel_3_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "prisao_cavalete_de_tortura",
+          "label": "Prisão Cavalete de Tortura",
+          "glb": "assets/dungeon_prison/prisao_cavalete_de_tortura.glb",
+          "tex": "assets/dungeon_prison/prisao_cavalete_de_tortura_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Dungeon: Armadilhas e Chaves",
+      "id": "dungeon_traps",
+      "items": [
+        {
+          "id": "armadilha_de_corda",
+          "label": "Armadilha de Corda",
+          "glb": "assets/dungeon_traps/armadilha_de_corda.glb",
+          "tex": "assets/dungeon_traps/armadilha_de_corda_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "armadilha_de_espinhos_oculta",
+          "label": "Armadilha de Espinhos Oculta",
+          "glb": "assets/dungeon_traps/armadilha_de_espinhos_oculta.glb",
+          "tex": "assets/dungeon_traps/armadilha_de_espinhos_oculta_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "armadilha_de_espinhos_aviso",
+          "label": "Armadilha de Espinhos Aviso",
+          "glb": "assets/dungeon_traps/armadilha_de_espinhos_aviso.glb",
+          "tex": "assets/dungeon_traps/armadilha_de_espinhos_aviso_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "armadilha_de_espinhos_ativa",
+          "label": "Armadilha de Espinhos Ativa",
+          "glb": "assets/dungeon_traps/armadilha_de_espinhos_ativa.glb",
+          "tex": "assets/dungeon_traps/armadilha_de_espinhos_ativa_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "placa_de_armadilha",
+          "label": "Placa de Armadilha",
+          "glb": "assets/dungeon_traps/placa_de_armadilha.glb",
+          "tex": "assets/dungeon_traps/placa_de_armadilha_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "chave_nivel_1",
+          "label": "Chave Nível 1",
+          "glb": "assets/dungeon_traps/chave_nivel_1.glb",
+          "tex": "assets/dungeon_traps/chave_nivel_1_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "chave_nivel_2",
+          "label": "Chave Nível 2",
+          "glb": "assets/dungeon_traps/chave_nivel_2.glb",
+          "tex": "assets/dungeon_traps/chave_nivel_2_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "chave_nivel_3",
+          "label": "Chave Nível 3",
+          "glb": "assets/dungeon_traps/chave_nivel_3.glb",
+          "tex": "assets/dungeon_traps/chave_nivel_3_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "escada_de_subida",
+          "label": "Escada de Subida",
+          "glb": "assets/dungeon_traps/escada_de_subida.glb",
+          "tex": "assets/dungeon_traps/escada_de_subida_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Ruínas e Biomas",
+      "id": "ruins_biomes",
+      "items": [
+        {
+          "id": "altar_de_sangue",
+          "label": "Altar de Sangue",
+          "glb": "assets/ruins_biomes/altar_de_sangue.glb",
+          "tex": "assets/ruins_biomes/altar_de_sangue_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "parede_de_ametista",
+          "label": "Parede de Ametista",
+          "glb": "assets/ruins_biomes/parede_de_ametista.glb",
+          "tex": "assets/ruins_biomes/parede_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "parede_de_basalto",
+          "label": "Parede de Basalto",
+          "glb": "assets/ruins_biomes/parede_de_basalto.glb",
+          "tex": "assets/ruins_biomes/parede_de_basalto_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "parede_de_caverna",
+          "label": "Parede de Caverna",
+          "glb": "assets/ruins_biomes/parede_de_caverna.glb",
+          "tex": "assets/ruins_biomes/parede_de_caverna_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "parede_de_gelo",
+          "label": "Parede de Gelo",
+          "glb": "assets/ruins_biomes/parede_de_gelo.glb",
+          "tex": "assets/ruins_biomes/parede_de_gelo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "parede_de_musgosa",
+          "label": "Parede de Musgosa",
+          "glb": "assets/ruins_biomes/parede_de_musgosa.glb",
+          "tex": "assets/ruins_biomes/parede_de_musgosa_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "parede_de_sangue",
+          "label": "Parede de Sangue",
+          "glb": "assets/ruins_biomes/parede_de_sangue.glb",
+          "tex": "assets/ruins_biomes/parede_de_sangue_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bau_de_ametista",
+          "label": "Baú de Ametista",
+          "glb": "assets/ruins_biomes/bau_de_ametista.glb",
+          "tex": "assets/ruins_biomes/bau_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bau_de_caverna",
+          "label": "Baú de Caverna",
+          "glb": "assets/ruins_biomes/bau_de_caverna.glb",
+          "tex": "assets/ruins_biomes/bau_de_caverna_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bau_de_floresta",
+          "label": "Baú de Floresta",
+          "glb": "assets/ruins_biomes/bau_de_floresta.glb",
+          "tex": "assets/ruins_biomes/bau_de_floresta_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bau_de_gelo",
+          "label": "Baú de Gelo",
+          "glb": "assets/ruins_biomes/bau_de_gelo.glb",
+          "tex": "assets/ruins_biomes/bau_de_gelo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bau_de_inferno",
+          "label": "Baú de Inferno",
+          "glb": "assets/ruins_biomes/bau_de_inferno.glb",
+          "tex": "assets/ruins_biomes/bau_de_inferno_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bau_de_sangue",
+          "label": "Baú de Sangue",
+          "glb": "assets/ruins_biomes/bau_de_sangue.glb",
+          "tex": "assets/ruins_biomes/bau_de_sangue_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bigorna_de_basalto",
+          "label": "Bigorna de Basalto",
+          "glb": "assets/ruins_biomes/bigorna_de_basalto.glb",
+          "tex": "assets/ruins_biomes/bigorna_de_basalto_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "braseiro_azul",
+          "label": "Braseiro Azul",
+          "glb": "assets/ruins_biomes/braseiro_azul.glb",
+          "tex": "assets/ruins_biomes/braseiro_azul_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "braseiro_quente",
+          "label": "Braseiro Quente",
+          "glb": "assets/ruins_biomes/braseiro_quente.glb",
+          "tex": "assets/ruins_biomes/braseiro_quente_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "braseiro_roxo",
+          "label": "Braseiro Roxo",
+          "glb": "assets/ruins_biomes/braseiro_roxo.glb",
+          "tex": "assets/ruins_biomes/braseiro_roxo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "braseiro_de_sangue",
+          "label": "Braseiro de Sangue",
+          "glb": "assets/ruins_biomes/braseiro_de_sangue.glb",
+          "tex": "assets/ruins_biomes/braseiro_de_sangue_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "caixa_de_mina",
+          "label": "Caixa de Mina",
+          "glb": "assets/ruins_biomes/caixa_de_mina.glb",
+          "tex": "assets/ruins_biomes/caixa_de_mina_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "carrinho_de_mina",
+          "label": "Carrinho de Mina",
+          "glb": "assets/ruins_biomes/carrinho_de_mina.glb",
+          "tex": "assets/ruins_biomes/carrinho_de_mina_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "ruinas_cogumelo_roxo",
+          "label": "Ruínas Cogumelo Roxo",
+          "glb": "assets/ruins_biomes/ruinas_cogumelo_roxo.glb",
+          "tex": "assets/ruins_biomes/ruinas_cogumelo_roxo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "ruinas_cranio",
+          "label": "Ruínas Crânio",
+          "glb": "assets/ruins_biomes/ruinas_cranio.glb",
+          "tex": "assets/ruins_biomes/ruinas_cranio_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cristal_alto",
+          "label": "Cristal Alto",
+          "glb": "assets/ruins_biomes/cristal_alto.glb",
+          "tex": "assets/ruins_biomes/cristal_alto_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "ruinas_cristal_de_ametista",
+          "label": "Ruínas Cristal de Ametista",
+          "glb": "assets/ruins_biomes/ruinas_cristal_de_ametista.glb",
+          "tex": "assets/ruins_biomes/ruinas_cristal_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "ruinas_cristal_de_gelo",
+          "label": "Ruínas Cristal de Gelo",
+          "glb": "assets/ruins_biomes/ruinas_cristal_de_gelo.glb",
+          "tex": "assets/ruins_biomes/ruinas_cristal_de_gelo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "estatua_de_gelo",
+          "label": "Estátua de Gelo",
+          "glb": "assets/ruins_biomes/estatua_de_gelo.glb",
+          "tex": "assets/ruins_biomes/estatua_de_gelo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "fogueira_apagada",
+          "label": "Fogueira Apagada",
+          "glb": "assets/ruins_biomes/fogueira_apagada.glb",
+          "tex": "assets/ruins_biomes/fogueira_apagada_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "geodo",
+          "label": "Geodo",
+          "glb": "assets/ruins_biomes/geodo.glb",
+          "tex": "assets/ruins_biomes/geodo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "ruinas_musgo",
+          "label": "Ruínas Musgo",
+          "glb": "assets/ruins_biomes/ruinas_musgo.glb",
+          "tex": "assets/ruins_biomes/ruinas_musgo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "neve",
+          "label": "Neve",
+          "glb": "assets/ruins_biomes/neve.glb",
+          "tex": "assets/ruins_biomes/neve_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "ruinas_ossos",
+          "label": "Ruínas Ossos",
+          "glb": "assets/ruins_biomes/ruinas_ossos.glb",
+          "tex": "assets/ruins_biomes/ruinas_ossos_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "trilho_de_mina",
+          "label": "Trilho de Mina",
+          "glb": "assets/ruins_biomes/trilho_de_mina.glb",
+          "tex": "assets/ruins_biomes/trilho_de_mina_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "viga_de_mina",
+          "label": "Viga de Mina",
+          "glb": "assets/ruins_biomes/viga_de_mina.glb",
+          "tex": "assets/ruins_biomes/viga_de_mina_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "entulho_de_ametista",
+          "label": "Entulho de Ametista",
+          "glb": "assets/ruins_biomes/entulho_de_ametista.glb",
+          "tex": "assets/ruins_biomes/entulho_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "entulho_de_caverna",
+          "label": "Entulho de Caverna",
+          "glb": "assets/ruins_biomes/entulho_de_caverna.glb",
+          "tex": "assets/ruins_biomes/entulho_de_caverna_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "entulho_de_floresta",
+          "label": "Entulho de Floresta",
+          "glb": "assets/ruins_biomes/entulho_de_floresta.glb",
+          "tex": "assets/ruins_biomes/entulho_de_floresta_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "entulho_de_gelo",
+          "label": "Entulho de Gelo",
+          "glb": "assets/ruins_biomes/entulho_de_gelo.glb",
+          "tex": "assets/ruins_biomes/entulho_de_gelo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "entulho_de_inferno",
+          "label": "Entulho de Inferno",
+          "glb": "assets/ruins_biomes/entulho_de_inferno.glb",
+          "tex": "assets/ruins_biomes/entulho_de_inferno_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "entulho_de_sangue",
+          "label": "Entulho de Sangue",
+          "glb": "assets/ruins_biomes/entulho_de_sangue.glb",
+          "tex": "assets/ruins_biomes/entulho_de_sangue_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pilar_de_ametista",
+          "label": "Pilar de Ametista",
+          "glb": "assets/ruins_biomes/pilar_de_ametista.glb",
+          "tex": "assets/ruins_biomes/pilar_de_ametista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pilar_de_basalto",
+          "label": "Pilar de Basalto",
+          "glb": "assets/ruins_biomes/pilar_de_basalto.glb",
+          "tex": "assets/ruins_biomes/pilar_de_basalto_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pilar_de_caverna",
+          "label": "Pilar de Caverna",
+          "glb": "assets/ruins_biomes/pilar_de_caverna.glb",
+          "tex": "assets/ruins_biomes/pilar_de_caverna_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pilar_de_gelo",
+          "label": "Pilar de Gelo",
+          "glb": "assets/ruins_biomes/pilar_de_gelo.glb",
+          "tex": "assets/ruins_biomes/pilar_de_gelo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pilar_de_madeira",
+          "label": "Pilar de Madeira",
+          "glb": "assets/ruins_biomes/pilar_de_madeira.glb",
+          "tex": "assets/ruins_biomes/pilar_de_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pilar_de_musgosa",
+          "label": "Pilar de Musgosa",
+          "glb": "assets/ruins_biomes/pilar_de_musgosa.glb",
+          "tex": "assets/ruins_biomes/pilar_de_musgosa_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pilar_de_sangue",
+          "label": "Pilar de Sangue",
+          "glb": "assets/ruins_biomes/pilar_de_sangue.glb",
+          "tex": "assets/ruins_biomes/pilar_de_sangue_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Cidade",
+      "id": "city",
+      "items": [
+        {
+          "id": "cidade_altar",
+          "label": "Cidade Altar",
+          "glb": "assets/city/cidade_altar.glb",
+          "tex": "assets/city/cidade_altar_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "banco_de_igreja",
+          "label": "Banco de Igreja",
+          "glb": "assets/city/banco_de_igreja.glb",
+          "tex": "assets/city/banco_de_igreja_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cidade_caixote",
+          "label": "Cidade Caixote",
+          "glb": "assets/city/cidade_caixote.glb",
+          "tex": "assets/city/cidade_caixote_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "estatua_de_chafariz",
+          "label": "Estátua de Chafariz",
+          "glb": "assets/city/estatua_de_chafariz.glb",
+          "tex": "assets/city/estatua_de_chafariz_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "estrada_de_pedra",
+          "label": "Estrada de Pedra",
+          "glb": "assets/city/estrada_de_pedra.glb",
+          "tex": "assets/city/estrada_de_pedra_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "feno",
+          "label": "Feno",
+          "glb": "assets/city/feno.glb",
+          "tex": "assets/city/feno_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lapide",
+          "label": "Lápide",
+          "glb": "assets/city/lapide.glb",
+          "tex": "assets/city/lapide_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lavoura",
+          "label": "Lavoura",
+          "glb": "assets/city/lavoura.glb",
+          "tex": "assets/city/lavoura_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mesa",
+          "label": "Mesa",
+          "glb": "assets/city/mesa.glb",
+          "tex": "assets/city/mesa_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "parede_de_vitral",
+          "label": "Parede de Vitral",
+          "glb": "assets/city/parede_de_vitral.glb",
+          "tex": "assets/city/parede_de_vitral_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "poco",
+          "label": "Poço",
+          "glb": "assets/city/poco.glb",
+          "tex": "assets/city/poco_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "barraca_de_mercado",
+          "label": "Barraca de Mercado",
+          "glb": "assets/city/barraca_de_mercado.glb",
+          "tex": "assets/city/barraca_de_mercado_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "telhado_01_taverna",
+          "label": "Telhado 01 Taverna",
+          "glb": "assets/city/telhado_01_taverna.glb",
+          "tex": "assets/city/telhado_01_taverna_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "telhado_02_ferraria",
+          "label": "Telhado 02 Ferraria",
+          "glb": "assets/city/telhado_02_ferraria.glb",
+          "tex": "assets/city/telhado_02_ferraria_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "telhado_03_torre_do_mago",
+          "label": "Telhado 03 Torre do Mago",
+          "glb": "assets/city/telhado_03_torre_do_mago.glb",
+          "tex": "assets/city/telhado_03_torre_do_mago_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "telhado_04_mercado",
+          "label": "Telhado 04 Mercado",
+          "glb": "assets/city/telhado_04_mercado.glb",
+          "tex": "assets/city/telhado_04_mercado_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "telhado_05_igreja",
+          "label": "Telhado 05 Igreja",
+          "glb": "assets/city/telhado_05_igreja.glb",
+          "tex": "assets/city/telhado_05_igreja_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "telhado_06_alquimista",
+          "label": "Telhado 06 Alquimista",
+          "glb": "assets/city/telhado_06_alquimista.glb",
+          "tex": "assets/city/telhado_06_alquimista_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "telhado_07_quartel",
+          "label": "Telhado 07 Quartel",
+          "glb": "assets/city/telhado_07_quartel.glb",
+          "tex": "assets/city/telhado_07_quartel_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "telhado_08_carpintaria",
+          "label": "Telhado 08 Carpintaria",
+          "glb": "assets/city/telhado_08_carpintaria.glb",
+          "tex": "assets/city/telhado_08_carpintaria_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "telhado_09_estabulo",
+          "label": "Telhado 09 Estábulo",
+          "glb": "assets/city/telhado_09_estabulo.glb",
+          "tex": "assets/city/telhado_09_estabulo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "telhado_10_padaria",
+          "label": "Telhado 10 Padaria",
+          "glb": "assets/city/telhado_10_padaria.glb",
+          "tex": "assets/city/telhado_10_padaria_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "telhado_11_guilda_das_sombras",
+          "label": "Telhado 11 Guilda das Sombras",
+          "glb": "assets/city/telhado_11_guilda_das_sombras.glb",
+          "tex": "assets/city/telhado_11_guilda_das_sombras_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "telhado_12_casa_comum",
+          "label": "Telhado 12 Casa Comum",
+          "glb": "assets/city/telhado_12_casa_comum.glb",
+          "tex": "assets/city/telhado_12_casa_comum_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Animais de Criação",
+      "id": "farm",
+      "items": [
+        {
+          "id": "cama_de_galinha",
+          "label": "Cama de Galinha",
+          "glb": "assets/farm/cama_de_galinha.glb",
+          "tex": "assets/farm/cama_de_galinha_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cama_de_porco",
+          "label": "Cama de Porco",
+          "glb": "assets/farm/cama_de_porco.glb",
+          "tex": "assets/farm/cama_de_porco_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "cama_de_ovelha",
+          "label": "Cama de Ovelha",
+          "glb": "assets/farm/cama_de_ovelha.glb",
+          "tex": "assets/farm/cama_de_ovelha_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "porta_de_animais",
+          "label": "Porta de Animais",
+          "glb": "assets/farm/porta_de_animais.glb",
+          "tex": "assets/farm/porta_de_animais_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cerca_de_animais",
+          "label": "Cerca de Animais",
+          "glb": "assets/farm/cerca_de_animais.glb",
+          "tex": "assets/farm/cerca_de_animais_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "portao_de_animais",
+          "label": "Portão de Animais",
+          "glb": "assets/farm/portao_de_animais.glb",
+          "tex": "assets/farm/portao_de_animais_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "parede_de_animais",
+          "label": "Parede de Animais",
+          "glb": "assets/farm/parede_de_animais.glb",
+          "tex": "assets/farm/parede_de_animais_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "galinheiro",
+          "label": "Galinheiro",
+          "glb": "assets/farm/galinheiro.glb",
+          "tex": "assets/farm/galinheiro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "chiqueiro",
+          "label": "Chiqueiro",
+          "glb": "assets/farm/chiqueiro.glb",
+          "tex": "assets/farm/chiqueiro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "redil",
+          "label": "Redil",
+          "glb": "assets/farm/redil.glb",
+          "tex": "assets/farm/redil_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Itens-Chave e Relíquias",
+      "id": "key_items",
+      "items": [
+        {
+          "id": "flecha",
+          "label": "Flecha",
+          "glb": "assets/key_items/flecha.glb",
+          "tex": "assets/key_items/flecha_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "moeda_de_ouro",
+          "label": "Moeda de Ouro",
+          "glb": "assets/key_items/moeda_de_ouro.glb",
+          "tex": "assets/key_items/moeda_de_ouro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_sagrada_01",
+          "label": "Relíquia Sagrada 01",
+          "glb": "assets/key_items/reliquia_sagrada_01.glb",
+          "tex": "assets/key_items/reliquia_sagrada_01_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_sagrada_02",
+          "label": "Relíquia Sagrada 02",
+          "glb": "assets/key_items/reliquia_sagrada_02.glb",
+          "tex": "assets/key_items/reliquia_sagrada_02_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_sagrada_03",
+          "label": "Relíquia Sagrada 03",
+          "glb": "assets/key_items/reliquia_sagrada_03.glb",
+          "tex": "assets/key_items/reliquia_sagrada_03_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_sagrada_04",
+          "label": "Relíquia Sagrada 04",
+          "glb": "assets/key_items/reliquia_sagrada_04.glb",
+          "tex": "assets/key_items/reliquia_sagrada_04_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_sagrada_05",
+          "label": "Relíquia Sagrada 05",
+          "glb": "assets/key_items/reliquia_sagrada_05.glb",
+          "tex": "assets/key_items/reliquia_sagrada_05_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_sagrada_06",
+          "label": "Relíquia Sagrada 06",
+          "glb": "assets/key_items/reliquia_sagrada_06.glb",
+          "tex": "assets/key_items/reliquia_sagrada_06_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_sagrada_07",
+          "label": "Relíquia Sagrada 07",
+          "glb": "assets/key_items/reliquia_sagrada_07.glb",
+          "tex": "assets/key_items/reliquia_sagrada_07_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_sagrada_08",
+          "label": "Relíquia Sagrada 08",
+          "glb": "assets/key_items/reliquia_sagrada_08.glb",
+          "tex": "assets/key_items/reliquia_sagrada_08_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_sagrada_09",
+          "label": "Relíquia Sagrada 09",
+          "glb": "assets/key_items/reliquia_sagrada_09.glb",
+          "tex": "assets/key_items/reliquia_sagrada_09_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_sagrada_10",
+          "label": "Relíquia Sagrada 10",
+          "glb": "assets/key_items/reliquia_sagrada_10.glb",
+          "tex": "assets/key_items/reliquia_sagrada_10_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_sagrada_11",
+          "label": "Relíquia Sagrada 11",
+          "glb": "assets/key_items/reliquia_sagrada_11.glb",
+          "tex": "assets/key_items/reliquia_sagrada_11_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_sagrada_12",
+          "label": "Relíquia Sagrada 12",
+          "glb": "assets/key_items/reliquia_sagrada_12.glb",
+          "tex": "assets/key_items/reliquia_sagrada_12_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_sagrada_13",
+          "label": "Relíquia Sagrada 13",
+          "glb": "assets/key_items/reliquia_sagrada_13.glb",
+          "tex": "assets/key_items/reliquia_sagrada_13_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_sagrada_14",
+          "label": "Relíquia Sagrada 14",
+          "glb": "assets/key_items/reliquia_sagrada_14.glb",
+          "tex": "assets/key_items/reliquia_sagrada_14_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_sagrada_15",
+          "label": "Relíquia Sagrada 15",
+          "glb": "assets/key_items/reliquia_sagrada_15.glb",
+          "tex": "assets/key_items/reliquia_sagrada_15_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_sagrada_16",
+          "label": "Relíquia Sagrada 16",
+          "glb": "assets/key_items/reliquia_sagrada_16.glb",
+          "tex": "assets/key_items/reliquia_sagrada_16_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_endgame_01_coroa_da_fenda",
+          "label": "Relíquia Endgame 01 Coroa da Fenda",
+          "glb": "assets/key_items/reliquia_endgame_01_coroa_da_fenda.glb",
+          "tex": "assets/key_items/reliquia_endgame_01_coroa_da_fenda_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_endgame_02_coracao_de_brasa",
+          "label": "Relíquia Endgame 02 Coração de Brasa",
+          "glb": "assets/key_items/reliquia_endgame_02_coracao_de_brasa.glb",
+          "tex": "assets/key_items/reliquia_endgame_02_coracao_de_brasa_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_endgame_03_egide_glacial",
+          "label": "Relíquia Endgame 03 Égide Glacial",
+          "glb": "assets/key_items/reliquia_endgame_03_egide_glacial.glb",
+          "tex": "assets/key_items/reliquia_endgame_03_egide_glacial_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "reliquia_endgame_04_calice_de_sangue",
+          "label": "Relíquia Endgame 04 Cálice de Sangue",
+          "glb": "assets/key_items/reliquia_endgame_04_calice_de_sangue.glb",
+          "tex": "assets/key_items/reliquia_endgame_04_calice_de_sangue_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Magias e Efeitos VFX",
+      "id": "magic_vfx",
+      "items": [
+        {
+          "id": "magia_bola_de_fogo",
+          "label": "Magia Bola de Fogo",
+          "glb": "assets/magic_vfx/magia_bola_de_fogo.glb",
+          "tex": "assets/magic_vfx/magia_bola_de_fogo_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "magia_lamina_de_gelo",
+          "label": "Magia Lâmina de Gelo",
+          "glb": "assets/magic_vfx/magia_lamina_de_gelo.glb",
+          "tex": "assets/magic_vfx/magia_lamina_de_gelo_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "magia_bola_de_veneno",
+          "label": "Magia Bola de Veneno",
+          "glb": "assets/magic_vfx/magia_bola_de_veneno.glb",
+          "tex": "assets/magic_vfx/magia_bola_de_veneno_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "magia_raio_eletrico",
+          "label": "Magia Raio Elétrico",
+          "glb": "assets/magic_vfx/magia_raio_eletrico.glb",
+          "tex": "assets/magic_vfx/magia_raio_eletrico_tex.png",
+          "animated": true,
+          "cloth": false
+        },
+        {
+          "id": "magia_arcano",
+          "label": "Magia Arcano",
+          "glb": "assets/magic_vfx/magia_arcano.glb",
+          "tex": "assets/magic_vfx/magia_arcano_tex.png",
+          "animated": true,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Biomas: Terrenos e Paredes",
+      "id": "biome_tiles",
+      "items": [
+        {
+          "id": "parede_caverna_de_gelo",
+          "label": "Parede Caverna de Gelo",
+          "glb": "assets/biome_tiles/parede_caverna_de_gelo.glb",
+          "tex": "assets/biome_tiles/parede_caverna_de_gelo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "terreno_caverna_de_gelo",
+          "label": "Terreno Caverna de Gelo",
+          "glb": "assets/biome_tiles/terreno_caverna_de_gelo.glb",
+          "tex": "assets/biome_tiles/terreno_caverna_de_gelo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bloco_caverna_de_gelo",
+          "label": "Bloco Caverna de Gelo",
+          "glb": "assets/biome_tiles/bloco_caverna_de_gelo.glb",
+          "tex": "assets/biome_tiles/bloco_caverna_de_gelo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "parede_caverna_rochas_vermelhas",
+          "label": "Parede Caverna Rochas Vermelhas",
+          "glb": "assets/biome_tiles/parede_caverna_rochas_vermelhas.glb",
+          "tex": "assets/biome_tiles/parede_caverna_rochas_vermelhas_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "terreno_caverna_rochas_vermelhas",
+          "label": "Terreno Caverna Rochas Vermelhas",
+          "glb": "assets/biome_tiles/terreno_caverna_rochas_vermelhas.glb",
+          "tex": "assets/biome_tiles/terreno_caverna_rochas_vermelhas_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bloco_caverna_rochas_vermelhas",
+          "label": "Bloco Caverna Rochas Vermelhas",
+          "glb": "assets/biome_tiles/bloco_caverna_rochas_vermelhas.glb",
+          "tex": "assets/biome_tiles/bloco_caverna_rochas_vermelhas_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "parede_caverna_obsidiana",
+          "label": "Parede Caverna Obsidiana",
+          "glb": "assets/biome_tiles/parede_caverna_obsidiana.glb",
+          "tex": "assets/biome_tiles/parede_caverna_obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "terreno_caverna_obsidiana",
+          "label": "Terreno Caverna Obsidiana",
+          "glb": "assets/biome_tiles/terreno_caverna_obsidiana.glb",
+          "tex": "assets/biome_tiles/terreno_caverna_obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bloco_caverna_obsidiana",
+          "label": "Bloco Caverna Obsidiana",
+          "glb": "assets/biome_tiles/bloco_caverna_obsidiana.glb",
+          "tex": "assets/biome_tiles/bloco_caverna_obsidiana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "parede_caverna_inferno",
+          "label": "Parede Caverna Inferno",
+          "glb": "assets/biome_tiles/parede_caverna_inferno.glb",
+          "tex": "assets/biome_tiles/parede_caverna_inferno_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "terreno_caverna_inferno",
+          "label": "Terreno Caverna Inferno",
+          "glb": "assets/biome_tiles/terreno_caverna_inferno.glb",
+          "tex": "assets/biome_tiles/terreno_caverna_inferno_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bloco_caverna_inferno",
+          "label": "Bloco Caverna Inferno",
+          "glb": "assets/biome_tiles/bloco_caverna_inferno.glb",
+          "tex": "assets/biome_tiles/bloco_caverna_inferno_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "parede_floresta",
+          "label": "Parede Floresta",
+          "glb": "assets/biome_tiles/parede_floresta.glb",
+          "tex": "assets/biome_tiles/parede_floresta_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "terreno_floresta",
+          "label": "Terreno Floresta",
+          "glb": "assets/biome_tiles/terreno_floresta.glb",
+          "tex": "assets/biome_tiles/terreno_floresta_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bloco_floresta",
+          "label": "Bloco Floresta",
+          "glb": "assets/biome_tiles/bloco_floresta.glb",
+          "tex": "assets/biome_tiles/bloco_floresta_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Taverna Medieval",
+      "id": "tavern",
+      "items": [
+        {
+          "id": "taverna_medieval_40_jogadores",
+          "label": "Taverna Medieval (40 Jogadores)",
+          "glb": "assets/tavern/taverna_medieval_40_jogadores.glb",
+          "tex": "assets/tavern/taverna_medieval_40_jogadores_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "lareira_de_taverna",
+          "label": "Lareira de Taverna",
+          "glb": "assets/tavern/lareira_de_taverna.glb",
+          "tex": "assets/tavern/lareira_de_taverna_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "lustre_de_ferro",
+          "label": "Lustre de Ferro",
+          "glb": "assets/tavern/lustre_de_ferro.glb",
+          "tex": "assets/tavern/lustre_de_ferro_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "banqueta_de_taverna",
+          "label": "Banqueta de Taverna",
+          "glb": "assets/tavern/banqueta_de_taverna.glb",
+          "tex": "assets/tavern/banqueta_de_taverna_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "caneca_de_cerveja",
+          "label": "Caneca de Cerveja",
+          "glb": "assets/tavern/caneca_de_cerveja.glb",
+          "tex": "assets/tavern/caneca_de_cerveja_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "quadro_de_missoes",
+          "label": "Quadro de Missões",
+          "glb": "assets/tavern/quadro_de_missoes.glb",
+          "tex": "assets/tavern/quadro_de_missoes_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "placa_de_taverna",
+          "label": "Placa de Taverna",
+          "glb": "assets/tavern/placa_de_taverna.glb",
+          "tex": "assets/tavern/placa_de_taverna_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Casa do Ferreiro",
+      "id": "blacksmith",
+      "items": [
+        {
+          "id": "casa_do_ferreiro",
+          "label": "Casa do Ferreiro",
+          "glb": "assets/blacksmith/casa_do_ferreiro.glb",
+          "tex": "assets/blacksmith/casa_do_ferreiro_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "forja_de_pedra",
+          "label": "Forja de Pedra",
+          "glb": "assets/blacksmith/forja_de_pedra.glb",
+          "tex": "assets/blacksmith/forja_de_pedra_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "rebolo_de_afiar",
+          "label": "Rebolo de Afiar",
+          "glb": "assets/blacksmith/rebolo_de_afiar.glb",
+          "tex": "assets/blacksmith/rebolo_de_afiar_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tonel_de_tempera",
+          "label": "Tonel de Têmpera",
+          "glb": "assets/blacksmith/tonel_de_tempera.glb",
+          "tex": "assets/blacksmith/tonel_de_tempera_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "placa_de_ferraria",
+          "label": "Placa de Ferraria",
+          "glb": "assets/blacksmith/placa_de_ferraria.glb",
+          "tex": "assets/blacksmith/placa_de_ferraria_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Igreja da Vila",
+      "id": "chapel",
+      "items": [
+        {
+          "id": "igreja_da_vila",
+          "label": "Igreja da Vila",
+          "glb": "assets/chapel/igreja_da_vila.glb",
+          "tex": "assets/chapel/igreja_da_vila_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "pulpito_de_madeira",
+          "label": "Púlpito de Madeira",
+          "glb": "assets/chapel/pulpito_de_madeira.glb",
+          "tex": "assets/chapel/pulpito_de_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "candelabro_de_igreja",
+          "label": "Candelabro de Igreja",
+          "glb": "assets/chapel/candelabro_de_igreja.glb",
+          "tex": "assets/chapel/candelabro_de_igreja_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pia_batismal",
+          "label": "Pia Batismal",
+          "glb": "assets/chapel/pia_batismal.glb",
+          "tex": "assets/chapel/pia_batismal_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "estatua_de_anjo",
+          "label": "Estátua de Anjo",
+          "glb": "assets/chapel/estatua_de_anjo.glb",
+          "tex": "assets/chapel/estatua_de_anjo_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Escola de Magia",
+      "id": "magic_school",
+      "items": [
+        {
+          "id": "escola_de_magia",
+          "label": "Escola de Magia",
+          "glb": "assets/magic_school/escola_de_magia.glb",
+          "tex": "assets/magic_school/escola_de_magia_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "atril_de_grimorio",
+          "label": "Atril de Grimório",
+          "glb": "assets/magic_school/atril_de_grimorio.glb",
+          "tex": "assets/magic_school/atril_de_grimorio_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "orbe_astral",
+          "label": "Orbe Astral",
+          "glb": "assets/magic_school/orbe_astral.glb",
+          "tex": "assets/magic_school/orbe_astral_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "bola_de_cristal",
+          "label": "Bola de Cristal",
+          "glb": "assets/magic_school/bola_de_cristal.glb",
+          "tex": "assets/magic_school/bola_de_cristal_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mesa_de_alquimia_arcana",
+          "label": "Mesa de Alquimia Arcana",
+          "glb": "assets/magic_school/mesa_de_alquimia_arcana.glb",
+          "tex": "assets/magic_school/mesa_de_alquimia_arcana_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "cristal_flutuante_arcano",
+          "label": "Cristal Flutuante Arcano",
+          "glb": "assets/magic_school/cristal_flutuante_arcano.glb",
+          "tex": "assets/magic_school/cristal_flutuante_arcano_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Feira da Vila",
+      "id": "village_market",
+      "items": [
+        {
+          "id": "praca_da_feira",
+          "label": "Praça da Feira",
+          "glb": "assets/village_market/praca_da_feira.glb",
+          "tex": "assets/village_market/praca_da_feira_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "chafariz_da_praca",
+          "label": "Chafariz da Praça",
+          "glb": "assets/village_market/chafariz_da_praca.glb",
+          "tex": "assets/village_market/chafariz_da_praca_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "barraca_de_frutas",
+          "label": "Barraca de Frutas",
+          "glb": "assets/village_market/barraca_de_frutas.glb",
+          "tex": "assets/village_market/barraca_de_frutas_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "barraca_de_peixes",
+          "label": "Barraca de Peixes",
+          "glb": "assets/village_market/barraca_de_peixes.glb",
+          "tex": "assets/village_market/barraca_de_peixes_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "barraca_de_tecidos",
+          "label": "Barraca de Tecidos",
+          "glb": "assets/village_market/barraca_de_tecidos.glb",
+          "tex": "assets/village_market/barraca_de_tecidos_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "poste_de_lampiao_medieval",
+          "label": "Poste de Lampião Medieval",
+          "glb": "assets/village_market/poste_de_lampiao_medieval.glb",
+          "tex": "assets/village_market/poste_de_lampiao_medieval_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Delegacia e Quartel",
+      "id": "guardhouse",
+      "items": [
+        {
+          "id": "delegacia_da_vila",
+          "label": "Delegacia da Vila",
+          "glb": "assets/guardhouse/delegacia_da_vila.glb",
+          "tex": "assets/guardhouse/delegacia_da_vila_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "escrivaninha_do_capitao",
+          "label": "Escrivaninha do Capitão",
+          "glb": "assets/guardhouse/escrivaninha_do_capitao.glb",
+          "tex": "assets/guardhouse/escrivaninha_do_capitao_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "quadro_de_procurados",
+          "label": "Quadro de Procurados",
+          "glb": "assets/guardhouse/quadro_de_procurados.glb",
+          "tex": "assets/guardhouse/quadro_de_procurados_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "placa_da_guarda",
+          "label": "Placa da Guarda",
+          "glb": "assets/guardhouse/placa_da_guarda.glb",
+          "tex": "assets/guardhouse/placa_da_guarda_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Torres da Vila",
+      "id": "towers",
+      "items": [
+        {
+          "id": "torre_de_armas",
+          "label": "Torre de Armas",
+          "glb": "assets/towers/torre_de_armas.glb",
+          "tex": "assets/towers/torre_de_armas_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "torre_do_diretorio",
+          "label": "Torre do Diretório",
+          "glb": "assets/towers/torre_do_diretorio.glb",
+          "tex": "assets/towers/torre_do_diretorio_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "torre_de_deposito",
+          "label": "Torre de Depósito",
+          "glb": "assets/towers/torre_de_deposito.glb",
+          "tex": "assets/towers/torre_de_deposito_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "torre_vazia",
+          "label": "Torre Vazia",
+          "glb": "assets/towers/torre_vazia.glb",
+          "tex": "assets/towers/torre_vazia_tex.png",
+          "animated": false,
+          "cloth": true
+        }
+      ]
+    },
+    {
+      "cat": "Boticário e Enfermaria",
+      "id": "apothecary_medical",
+      "items": [
+        {
+          "id": "casa_do_herbalista",
+          "label": "Casa do Herbalista",
+          "glb": "assets/apothecary_medical/casa_do_herbalista.glb",
+          "tex": "assets/apothecary_medical/casa_do_herbalista_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "enfermaria_medieval",
+          "label": "Enfermaria Medieval",
+          "glb": "assets/apothecary_medical/enfermaria_medieval.glb",
+          "tex": "assets/apothecary_medical/enfermaria_medieval_tex.png",
+          "animated": false,
+          "cloth": true
+        },
+        {
+          "id": "prateleira_de_pocoes",
+          "label": "Prateleira de Poções",
+          "glb": "assets/apothecary_medical/prateleira_de_pocoes.glb",
+          "tex": "assets/apothecary_medical/prateleira_de_pocoes_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "canteiro_de_ervas",
+          "label": "Canteiro de Ervas",
+          "glb": "assets/apothecary_medical/canteiro_de_ervas.glb",
+          "tex": "assets/apothecary_medical/canteiro_de_ervas_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "placa_de_boticario",
+          "label": "Placa de Boticário",
+          "glb": "assets/apothecary_medical/placa_de_boticario.glb",
+          "tex": "assets/apothecary_medical/placa_de_boticario_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "leito_de_enfermaria",
+          "label": "Leito de Enfermaria",
+          "glb": "assets/apothecary_medical/leito_de_enfermaria.glb",
+          "tex": "assets/apothecary_medical/leito_de_enfermaria_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mesa_de_cirurgiao",
+          "label": "Mesa de Cirurgião",
+          "glb": "assets/apothecary_medical/mesa_de_cirurgiao.glb",
+          "tex": "assets/apothecary_medical/mesa_de_cirurgiao_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "biombo_de_madeira",
+          "label": "Biombo de Madeira",
+          "glb": "assets/apothecary_medical/biombo_de_madeira.glb",
+          "tex": "assets/apothecary_medical/biombo_de_madeira_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "placa_de_enfermaria",
+          "label": "Placa de Enfermaria",
+          "glb": "assets/apothecary_medical/placa_de_enfermaria.glb",
+          "tex": "assets/apothecary_medical/placa_de_enfermaria_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    },
+    {
+      "cat": "Flora e Props de Floresta",
+      "id": "forest_props",
+      "items": [
+        {
+          "id": "grama_baixa_tufo",
+          "label": "Grama Baixa (Tufo)",
+          "glb": "assets/forest_props/grama_baixa_tufo.glb",
+          "tex": "assets/forest_props/grama_baixa_tufo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "grama_baixa_tapete",
+          "label": "Grama Baixa (Tapete)",
+          "glb": "assets/forest_props/grama_baixa_tapete.glb",
+          "tex": "assets/forest_props/grama_baixa_tapete_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "grama_baixa_trevo",
+          "label": "Grama Baixa (Trevo)",
+          "glb": "assets/forest_props/grama_baixa_trevo.glb",
+          "tex": "assets/forest_props/grama_baixa_trevo_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "samambaia_da_floresta",
+          "label": "Samambaia da Floresta",
+          "glb": "assets/forest_props/samambaia_da_floresta.glb",
+          "tex": "assets/forest_props/samambaia_da_floresta_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mato_alto_folhagem_densa",
+          "label": "Mato Alto (Folhagem Densa)",
+          "glb": "assets/forest_props/mato_alto_folhagem_densa.glb",
+          "tex": "assets/forest_props/mato_alto_folhagem_densa_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "mato_alto_capim_dourado",
+          "label": "Mato Alto (Capim Dourado)",
+          "glb": "assets/forest_props/mato_alto_capim_dourado.glb",
+          "tex": "assets/forest_props/mato_alto_capim_dourado_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "arbusto_de_frutas_silvestres",
+          "label": "Arbusto de Frutas Silvestres",
+          "glb": "assets/forest_props/arbusto_de_frutas_silvestres.glb",
+          "tex": "assets/forest_props/arbusto_de_frutas_silvestres_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "tronco_caido_musgoso",
+          "label": "Tronco Caído Musgoso",
+          "glb": "assets/forest_props/tronco_caido_musgoso.glb",
+          "tex": "assets/forest_props/tronco_caido_musgoso_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "toco_de_arvore_musgoso",
+          "label": "Toco de Árvore Musgoso",
+          "glb": "assets/forest_props/toco_de_arvore_musgoso.glb",
+          "tex": "assets/forest_props/toco_de_arvore_musgoso_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "pedras_musgosas",
+          "label": "Pedras Musgosas",
+          "glb": "assets/forest_props/pedras_musgosas.glb",
+          "tex": "assets/forest_props/pedras_musgosas_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "placa_de_direcao_da_floresta",
+          "label": "Placa de Direção da Floresta",
+          "glb": "assets/forest_props/placa_de_direcao_da_floresta.glb",
+          "tex": "assets/forest_props/placa_de_direcao_da_floresta_tex.png",
+          "animated": false,
+          "cloth": false
+        },
+        {
+          "id": "grupo_de_cogumelos",
+          "label": "Grupo de Cogumelos",
+          "glb": "assets/forest_props/grupo_de_cogumelos.glb",
+          "tex": "assets/forest_props/grupo_de_cogumelos_tex.png",
+          "animated": false,
+          "cloth": false
+        }
+      ]
+    }
+  ]
+}
